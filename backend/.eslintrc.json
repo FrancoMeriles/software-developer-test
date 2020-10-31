@@ -3,14 +3,17 @@
     "commonjs": true,
     "es6": true,
     "node": true,
-    "mocha": false
+    "mocha": false,
+    "jest/globals": true
   },
   "extends": [
     "airbnb-base"
   ],
+  "plugins": ["jest"],
   "globals": {
     "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
+    "SharedArrayBuffer": "readonly",
+    "describe": "readonly"
   },
   "parserOptions": {
     "ecmaVersion": 2018
