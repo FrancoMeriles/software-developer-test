@@ -7,7 +7,8 @@
     "start": "nodemon src/index.js",
     "lint": "./node_modules/.bin/eslint src/ test/",
     "lint-fix": "./node_modules/.bin/eslint --fix src/ test/",
-    "test": "jest",
+    "test": "jest test/unit",
+    "integration-test": "jest test/integration",
     "dependency-check": "dependency-check ./package.json --unused --no-dev --entry ./src/index.js"
   },
   "author": "",

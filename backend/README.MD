@@ -5,6 +5,8 @@ This Project is a service using nodeJS, ExpressJS and the api from [Mercado Libr
 ### Structure
 
 ```
+└── docs
+│   └── swagger.yml
 └── src
 │   └── application
 │   │   └── controllers
@@ -23,6 +25,18 @@ This Project is a service using nodeJS, ExpressJS and the api from [Mercado Libr
 │   └── util
 │   │   └── getPrice.js
 │   └── index.js
+└── test
+│   └── integration
+│   │   └── data
+│   │   │   └── itemSuccess.json
+│   │   │   └── querySuccess.json
+│   │   └── stub
+│   │   │   └── getItemData.json
+│   │   │   └── getItemDescription.json
+│   │   │   └── getQuery.json
+│   │   └── items.test.js
+│   └── unit
+│   │   └── getPrice.test.js
 └── .gitignore
 └── .eslintrc.json
 └── package.json
@@ -67,15 +81,33 @@ npm run lint
 
 In this project i used [Jest](https://jestjs.io/) for testing, you can run this tests with the following command
 
+Run unit test
+
 ```sh
 npm run test
 ```
 
+Run integration test
+
+```sh
+npm run integration-test
+```
+
 ### Swagger
 
-To see the project with swagger, install [Swagger Viewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer) in your [Visual Studio Code](https://code.visualstudio.com/)
+To see the swagger, install [Swagger Viewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer) in your [Visual Studio Code](https://code.visualstudio.com/)
 
 - Open the command pallet with <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd> and type `Preview Swagger`
 - Or navigate to this [site](https://editor.swagger.io/) and paste the `docs/swagger.yml` in the editor
+
+### Dependency check
+
+In this project i used [dependency-check](https://www.npmjs.com/package/dependency-check) for checking which modules i have used in my code and then makes sure they are listed as dependencies in the package.json, or vice-versa
+
+Run dependency-check
+
+```sh
+npm run dependency-check
+```
 
 ### Thanks 🙌
