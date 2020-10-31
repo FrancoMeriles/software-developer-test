@@ -1,0 +1,2883 @@
+{
+  "site_id": "MLA",
+  "query": "iphone",
+  "paging": {
+      "total": 14632,
+      "primary_results": 1000,
+      "offset": 0,
+      "limit": 50
+  },
+  "results": [
+      {
+          "id": "MLA884082181",
+          "site_id": "MLA",
+          "title": "iPhone 11 128 Gb Negro",
+          "seller": {
+              "id": 396340389,
+              "permalink": "http://perfil.mercadolibre.com.ar/-M-STORE-",
+              "registration_date": "2019-01-18T10:02:58.000-04:00",
+              "car_dealer": false,
+              "real_estate_agency": false,
+              "tags": [
+                  "normal",
+                  "user_info_verified",
+                  "eshop",
+                  "mshops",
+                  "credits_profile",
+                  "messages_as_seller",
+                  "messages_as_buyer"
+              ],
+              "eshop": {
+                  "eshop_id": 393150,
+                  "seller": 396340389,
+                  "nick_name": "-M-STORE-",
+                  "eshop_status_id": 1,
+                  "site_id": "MLA",
+                  "eshop_logo_url": "http://resources.mlstatic.com/eshops/396340389v764470.png",
+                  "eshop_experience": 0,
+                  "eshop_rubro": null,
+                  "eshop_locations": []
+              },
+              "seller_reputation": {
+                  "level_id": "5_green",
+                  "power_seller_status": "platinum",
+                  "transactions": {
+                      "canceled": 368,
+                      "completed": 4279,
+                      "period": "historic",
+                      "ratings": {
+                          "negative": 0.02,
+                          "neutral": 0.01,
+                          "positive": 0.97
+                      },
+                      "total": 4647
+                  },
+                  "metrics": {
+                      "sales": {
+                          "period": "60 days",
+                          "completed": 1715
+                      },
+                      "claims": {
+                          "period": "60 days",
+                          "rate": 0.013,
+                          "value": 24
+                      },
+                      "delayed_handling_time": {
+                          "period": "60 days",
+                          "rate": 0.0148,
+                          "value": 23
+                      },
+                      "cancellations": {
+                          "period": "60 days",
+                          "rate": 0.0103,
+                          "value": 19
+                      }
+                  }
+              }
+          },
+          "price": 189989.98,
+          "prices": {},
+          "sale_price": null,
+          "currency_id": "ARS",
+          "available_quantity": 14,
+          "sold_quantity": 26,
+          "buying_mode": "buy_it_now",
+          "listing_type_id": "gold_pro",
+          "stop_time": "2040-10-10T04:00:00.000Z",
+          "condition": "new",
+          "permalink": "https://www.mercadolibre.com.ar/iphone-11-128-gb-negro/p/MLA15149567",
+          "thumbnail": "http://http2.mlstatic.com/D_738648-MLA43654417399_102020-I.jpg",
+          "accepts_mercadopago": true,
+          "installments": {
+              "quantity": 9,
+              "amount": 21110,
+              "rate": 0,
+              "currency_id": "ARS"
+          },
+          "address": {
+              "state_id": "AR-C",
+              "state_name": "Capital Federal",
+              "city_id": null,
+              "city_name": "Palermo"
+          },
+          "shipping": {
+              "free_shipping": true,
+              "mode": "me2",
+              "tags": [
+                  "self_service_out",
+                  "mandatory_free_shipping"
+              ],
+              "logistic_type": "xd_drop_off",
+              "store_pick_up": false
+          },
+          "seller_address": {
+              "id": "",
+              "comment": "",
+              "address_line": "",
+              "zip_code": "",
+              "country": {
+                  "id": "AR",
+                  "name": "Argentina"
+              },
+              "state": {
+                  "id": "AR-C",
+                  "name": "Capital Federal"
+              },
+              "city": {
+                  "id": null,
+                  "name": "Palermo"
+              },
+              "latitude": "",
+              "longitude": ""
+          },
+          "attributes": [
+              {
+                  "name": "Marca",
+                  "value_name": "Apple",
+                  "values": [
+                      {
+                          "struct": null,
+                          "source": 1,
+                          "id": "9344",
+                          "name": "Apple"
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "source": 1,
+                  "id": "BRAND",
+                  "value_id": "9344",
+                  "value_struct": null,
+                  "attribute_group_name": "Otros"
+              },
+              {
+                  "name": "Modelo de GPU",
+                  "value_id": "7740544",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "struct": null,
+                          "source": 1,
+                          "id": "7740544",
+                          "name": "Apple GPU MP4"
+                      }
+                  ],
+                  "attribute_group_name": "Otros",
+                  "id": "GPU_MODEL",
+                  "value_name": "Apple GPU MP4",
+                  "attribute_group_id": "OTHERS",
+                  "source": 1
+              },
+              {
+                  "attribute_group_name": "Otros",
+                  "source": 3045741222775799,
+                  "id": "ITEM_CONDITION",
+                  "value_id": "2230284",
+                  "value_name": "Nuevo",
+                  "values": [
+                      {
+                          "id": "2230284",
+                          "name": "Nuevo",
+                          "struct": null,
+                          "source": 3045741222775799
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "name": "Condición del ítem",
+                  "value_struct": null
+              },
+              {
+                  "value_struct": null,
+                  "source": 1,
+                  "id": "LINE",
+                  "value_id": "58993",
+                  "values": [
+                      {
+                          "id": "58993",
+                          "name": "iPhone",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "name": "Línea",
+                  "value_name": "iPhone"
+              },
+              {
+                  "id": "MODEL",
+                  "name": "Modelo",
+                  "value_id": "7739079",
+                  "value_name": "iPhone 11",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "name": "iPhone 11",
+                          "struct": null,
+                          "source": 1,
+                          "id": "7739079"
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "source": 1
+              },
+              {
+                  "name": "Modelo del procesador",
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "source": 1,
+                  "id": "PROCESSOR_MODEL",
+                  "value_id": "7740540",
+                  "value_name": "Apple A13 Bionic",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "id": "7740540",
+                          "name": "Apple A13 Bionic",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ]
+              },
+              {
+                  "name": "Peso",
+                  "value_name": "194 g",
+                  "value_struct": {
+                      "number": 194,
+                      "unit": "g"
+                  },
+                  "values": [
+                      {
+                          "id": "2583040",
+                          "name": "194 g",
+                          "struct": {
+                              "number": 194,
+                              "unit": "g"
+                          },
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_name": "Otros",
+                  "id": "WEIGHT",
+                  "value_id": "2583040",
+                  "attribute_group_id": "OTHERS",
+                  "source": 1
+              }
+          ],
+          "differential_pricing": {
+              "id": 35713248
+          },
+          "original_price": null,
+          "category_id": "MLA1055",
+          "official_store_id": null,
+          "domain_id": "MLA-CELLPHONES",
+          "catalog_product_id": "MLA15149567",
+          "tags": [
+              "brand_verified",
+              "good_quality_picture",
+              "loyalty_discount_eligible",
+              "immediate_payment",
+              "cart_eligible",
+              "shipping_guaranteed"
+          ],
+          "catalog_listing": true,
+          "order_backend": 1
+      },
+      {
+          "id": "MLA832366587",
+          "site_id": "MLA",
+          "title": "iPhone 11 Pro Max 64 Gb Gris Espacial",
+          "seller": {
+              "id": 396340389,
+              "permalink": "http://perfil.mercadolibre.com.ar/-M-STORE-",
+              "registration_date": "2019-01-18T10:02:58.000-04:00",
+              "car_dealer": false,
+              "real_estate_agency": false,
+              "tags": [
+                  "normal",
+                  "user_info_verified",
+                  "eshop",
+                  "mshops",
+                  "credits_profile",
+                  "messages_as_seller",
+                  "messages_as_buyer"
+              ],
+              "eshop": {
+                  "eshop_id": 393150,
+                  "seller": 396340389,
+                  "nick_name": "-M-STORE-",
+                  "eshop_status_id": 1,
+                  "site_id": "MLA",
+                  "eshop_logo_url": "http://resources.mlstatic.com/eshops/396340389v764470.png",
+                  "eshop_experience": 0,
+                  "eshop_rubro": null,
+                  "eshop_locations": []
+              },
+              "seller_reputation": {
+                  "level_id": "5_green",
+                  "power_seller_status": "platinum",
+                  "transactions": {
+                      "canceled": 368,
+                      "completed": 4279,
+                      "period": "historic",
+                      "ratings": {
+                          "negative": 0.02,
+                          "neutral": 0.01,
+                          "positive": 0.97
+                      },
+                      "total": 4647
+                  },
+                  "metrics": {
+                      "sales": {
+                          "period": "60 days",
+                          "completed": 1715
+                      },
+                      "claims": {
+                          "period": "60 days",
+                          "rate": 0.013,
+                          "value": 24
+                      },
+                      "delayed_handling_time": {
+                          "period": "60 days",
+                          "rate": 0.0148,
+                          "value": 23
+                      },
+                      "cancellations": {
+                          "period": "60 days",
+                          "rate": 0.0103,
+                          "value": 19
+                      }
+                  }
+              }
+          },
+          "price": 223000,
+          "prices": {},
+          "sale_price": null,
+          "currency_id": "ARS",
+          "available_quantity": 5,
+          "sold_quantity": 3,
+          "buying_mode": "buy_it_now",
+          "listing_type_id": "gold_special",
+          "stop_time": "2039-12-25T04:00:00.000Z",
+          "condition": "new",
+          "permalink": "https://www.mercadolibre.com.ar/iphone-11-pro-max-64-gb-gris-espacial/p/MLA15150973",
+          "thumbnail": "http://http2.mlstatic.com/D_645254-MLA32646972200_102019-I.jpg",
+          "accepts_mercadopago": true,
+          "installments": {
+              "quantity": 12,
+              "amount": 31623.26,
+              "rate": 70.17,
+              "currency_id": "ARS"
+          },
+          "address": {
+              "state_id": "AR-C",
+              "state_name": "Capital Federal",
+              "city_id": null,
+              "city_name": "Palermo"
+          },
+          "shipping": {
+              "free_shipping": true,
+              "mode": "me2",
+              "tags": [
+                  "self_service_in",
+                  "mandatory_free_shipping"
+              ],
+              "logistic_type": "xd_drop_off",
+              "store_pick_up": false
+          },
+          "seller_address": {
+              "id": "",
+              "comment": "",
+              "address_line": "",
+              "zip_code": "",
+              "country": {
+                  "id": "AR",
+                  "name": "Argentina"
+              },
+              "state": {
+                  "id": "AR-C",
+                  "name": "Capital Federal"
+              },
+              "city": {
+                  "id": null,
+                  "name": "Palermo"
+              },
+              "latitude": "",
+              "longitude": ""
+          },
+          "attributes": [
+              {
+                  "value_name": "Apple",
+                  "value_struct": null,
+                  "id": "BRAND",
+                  "name": "Marca",
+                  "value_id": "9344",
+                  "source": 1,
+                  "values": [
+                      {
+                          "id": "9344",
+                          "name": "Apple",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros"
+              },
+              {
+                  "id": "GPU_MODEL",
+                  "name": "Modelo de GPU",
+                  "value_name": "Apple GPU MP4",
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "source": 4709228965570453,
+                  "value_id": "7740544",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "id": "7740544",
+                          "name": "Apple GPU MP4",
+                          "struct": null,
+                          "source": 4709228965570453
+                      }
+                  ]
+              },
+              {
+                  "id": "ITEM_CONDITION",
+                  "value_name": "Nuevo",
+                  "values": [
+                      {
+                          "struct": null,
+                          "source": 3570163010178927,
+                          "id": "2230284",
+                          "name": "Nuevo"
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "name": "Condición del ítem",
+                  "value_id": "2230284",
+                  "value_struct": null,
+                  "attribute_group_name": "Otros",
+                  "source": 3570163010178927
+              },
+              {
+                  "id": "LINE",
+                  "name": "Línea",
+                  "values": [
+                      {
+                          "id": "58993",
+                          "name": "iPhone",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "value_id": "58993",
+                  "value_name": "iPhone",
+                  "value_struct": null,
+                  "source": 1
+              },
+              {
+                  "id": "MODEL",
+                  "name": "Modelo",
+                  "value_id": "7741677",
+                  "attribute_group_id": "OTHERS",
+                  "value_name": "iPhone 11 Pro Max",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "id": "7741677",
+                          "name": "iPhone 11 Pro Max",
+                          "struct": null,
+                          "source": 4709228965570453
+                      }
+                  ],
+                  "attribute_group_name": "Otros",
+                  "source": 4709228965570453
+              },
+              {
+                  "value_id": "7740540",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "id": "7740540",
+                          "name": "Apple A13 Bionic",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "id": "PROCESSOR_MODEL",
+                  "name": "Modelo del procesador",
+                  "value_name": "Apple A13 Bionic",
+                  "source": 1
+              },
+              {
+                  "source": 1,
+                  "id": "WEIGHT",
+                  "name": "Peso",
+                  "value_struct": {
+                      "number": 226,
+                      "unit": "g"
+                  },
+                  "attribute_group_name": "Otros",
+                  "value_id": "2713650",
+                  "value_name": "226 g",
+                  "values": [
+                      {
+                          "id": "2713650",
+                          "name": "226 g",
+                          "struct": {
+                              "number": 226,
+                              "unit": "g"
+                          },
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS"
+              }
+          ],
+          "original_price": 249989.98,
+          "category_id": "MLA1055",
+          "official_store_id": null,
+          "domain_id": "MLA-CELLPHONES",
+          "catalog_product_id": "MLA15150973",
+          "tags": [
+              "brand_verified",
+              "good_quality_picture",
+              "good_quality_thumbnail",
+              "loyalty_discount_eligible",
+              "immediate_payment",
+              "cart_eligible",
+              "shipping_guaranteed"
+          ],
+          "catalog_listing": true,
+          "order_backend": 2
+      },
+      {
+          "id": "MLA880059019",
+          "site_id": "MLA",
+          "title": "iPhone SE (2nd Generation) 128 Gb Blanco",
+          "seller": {
+              "id": 32153512,
+              "permalink": "http://perfil.mercadolibre.com.ar/RITATITO",
+              "registration_date": "2010-08-13T10:57:19.000-04:00",
+              "car_dealer": false,
+              "real_estate_agency": false,
+              "tags": [
+                  "normal",
+                  "user_info_verified",
+                  "messages_as_seller",
+                  "messages_as_buyer"
+              ],
+              "seller_reputation": {
+                  "level_id": "5_green",
+                  "power_seller_status": null,
+                  "transactions": {
+                      "canceled": 0,
+                      "completed": 19,
+                      "period": "historic",
+                      "ratings": {
+                          "negative": 0,
+                          "neutral": 0,
+                          "positive": 1
+                      },
+                      "total": 19
+                  },
+                  "metrics": {
+                      "sales": {
+                          "period": "365 days",
+                          "completed": 19
+                      },
+                      "claims": {
+                          "period": "365 days",
+                          "rate": 0,
+                          "value": 0
+                      },
+                      "delayed_handling_time": {
+                          "period": "365 days",
+                          "rate": 0,
+                          "value": 0
+                      },
+                      "cancellations": {
+                          "period": "365 days",
+                          "rate": 0,
+                          "value": 0
+                      }
+                  }
+              }
+          },
+          "price": 123405,
+          "prices": {},
+          "sale_price": null,
+          "currency_id": "ARS",
+          "available_quantity": 1,
+          "sold_quantity": 1,
+          "buying_mode": "buy_it_now",
+          "listing_type_id": "gold_special",
+          "stop_time": "2040-09-17T04:00:00.000Z",
+          "condition": "new",
+          "permalink": "https://www.mercadolibre.com.ar/iphone-se-2nd-generation-128-gb-blanco/p/MLA15591335",
+          "thumbnail": "http://http2.mlstatic.com/D_620208-MLA42321158044_062020-I.jpg",
+          "accepts_mercadopago": true,
+          "installments": {
+              "quantity": 12,
+              "amount": 17499.86,
+              "rate": 70.17,
+              "currency_id": "ARS"
+          },
+          "address": {
+              "state_id": "AR-S",
+              "state_name": "Santa Fe",
+              "city_id": "TUxBQ1JPUzg1Yjg3",
+              "city_name": "Rosario"
+          },
+          "shipping": {
+              "free_shipping": true,
+              "mode": "me2",
+              "tags": [
+                  "mandatory_free_shipping"
+              ],
+              "logistic_type": "drop_off",
+              "store_pick_up": false
+          },
+          "seller_address": {
+              "id": "",
+              "comment": "",
+              "address_line": "",
+              "zip_code": "",
+              "country": {
+                  "id": "AR",
+                  "name": "Argentina"
+              },
+              "state": {
+                  "id": "AR-S",
+                  "name": "Santa Fe"
+              },
+              "city": {
+                  "id": "TUxBQ1JPUzg1Yjg3",
+                  "name": "Rosario"
+              },
+              "latitude": "",
+              "longitude": ""
+          },
+          "attributes": [
+              {
+                  "attribute_group_name": "Otros",
+                  "id": "BRAND",
+                  "name": "Marca",
+                  "values": [
+                      {
+                          "id": "9344",
+                          "name": "Apple",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "source": 1,
+                  "value_id": "9344",
+                  "value_name": "Apple",
+                  "value_struct": null
+              },
+              {
+                  "value_id": "7741027",
+                  "value_name": "Apple GPU",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "id": "7741027",
+                          "name": "Apple GPU",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_name": "Otros",
+                  "source": 1,
+                  "id": "GPU_MODEL",
+                  "name": "Modelo de GPU",
+                  "attribute_group_id": "OTHERS"
+              },
+              {
+                  "name": "Condición del ítem",
+                  "value_name": "Nuevo",
+                  "values": [
+                      {
+                          "name": "Nuevo",
+                          "struct": null,
+                          "source": 6808261514773724,
+                          "id": "2230284"
+                      }
+                  ],
+                  "attribute_group_name": "Otros",
+                  "id": "ITEM_CONDITION",
+                  "value_id": "2230284",
+                  "value_struct": null,
+                  "attribute_group_id": "OTHERS",
+                  "source": 6808261514773724
+              },
+              {
+                  "name": "Línea",
+                  "attribute_group_name": "Otros",
+                  "source": 1,
+                  "id": "LINE",
+                  "value_name": "iPhone",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "id": "58993",
+                          "name": "iPhone",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "value_id": "58993"
+              },
+              {
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "value_name": "iPhone SE (2nd Generation)",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "id": "8230322",
+                          "name": "iPhone SE (2nd Generation)",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "source": 1,
+                  "id": "MODEL",
+                  "name": "Modelo",
+                  "value_id": "8230322"
+              },
+              {
+                  "values": [
+                      {
+                          "id": "7740540",
+                          "name": "Apple A13 Bionic",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "id": "PROCESSOR_MODEL",
+                  "name": "Modelo del procesador",
+                  "value_id": "7740540",
+                  "value_name": "Apple A13 Bionic",
+                  "value_struct": null,
+                  "source": 1
+              },
+              {
+                  "value_name": "148 g",
+                  "attribute_group_name": "Otros",
+                  "source": 1,
+                  "value_id": "6861161",
+                  "name": "Peso",
+                  "value_struct": {
+                      "number": 148,
+                      "unit": "g"
+                  },
+                  "values": [
+                      {
+                          "id": "6861161",
+                          "name": "148 g",
+                          "struct": {
+                              "number": 148,
+                              "unit": "g"
+                          },
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "id": "WEIGHT"
+              }
+          ],
+          "original_price": 129900,
+          "category_id": "MLA1055",
+          "official_store_id": null,
+          "domain_id": "MLA-CELLPHONES",
+          "catalog_product_id": "MLA15591335",
+          "tags": [
+              "brand_verified",
+              "good_quality_picture",
+              "loyalty_discount_eligible",
+              "immediate_payment",
+              "cart_eligible",
+              "shipping_guaranteed"
+          ],
+          "catalog_listing": true,
+          "order_backend": 3
+      },
+      {
+          "id": "MLA868947774",
+          "site_id": "MLA",
+          "title": "iPhone 7 32 Gb Negro Mate",
+          "seller": {
+              "id": 500397919,
+              "permalink": "http://perfil.mercadolibre.com.ar/GAR2009404",
+              "registration_date": "2019-12-13T20:09:57.000-04:00",
+              "car_dealer": false,
+              "real_estate_agency": false,
+              "tags": [
+                  "normal",
+                  "user_info_verified",
+                  "credits_profile",
+                  "messages_as_seller",
+                  "messages_as_buyer"
+              ],
+              "seller_reputation": {
+                  "level_id": "5_green",
+                  "power_seller_status": "silver",
+                  "real_level": "green",
+                  "protection_end_date": "2020-11-04T00:00:00.000-04:00",
+                  "transactions": {
+                      "canceled": 87,
+                      "completed": 690,
+                      "period": "historic",
+                      "ratings": {
+                          "negative": 0.08,
+                          "neutral": 0.03,
+                          "positive": 0.89
+                      },
+                      "total": 777
+                  },
+                  "metrics": {
+                      "sales": {
+                          "period": "365 days",
+                          "completed": 690
+                      },
+                      "claims": {
+                          "period": "365 days",
+                          "rate": 0,
+                          "value": 0,
+                          "excluded": {
+                              "real_value": 13,
+                              "real_rate": 0.0167
+                          }
+                      },
+                      "delayed_handling_time": {
+                          "period": "365 days",
+                          "rate": 0,
+                          "value": 0,
+                          "excluded": {
+                              "real_value": 8,
+                              "real_rate": 0.0111
+                          }
+                      },
+                      "cancellations": {
+                          "period": "365 days",
+                          "rate": 0,
+                          "value": 0,
+                          "excluded": {
+                              "real_value": 6,
+                              "real_rate": 0.0077
+                          }
+                      }
+                  }
+              }
+          },
+          "price": 84999,
+          "prices": {},
+          "sale_price": null,
+          "currency_id": "ARS",
+          "available_quantity": 1,
+          "sold_quantity": 11,
+          "buying_mode": "buy_it_now",
+          "listing_type_id": "gold_special",
+          "stop_time": "2040-07-13T04:00:00.000Z",
+          "condition": "new",
+          "permalink": "https://www.mercadolibre.com.ar/iphone-7-32-gb-negro-mate/p/MLA6240116",
+          "thumbnail": "http://http2.mlstatic.com/D_942036-MLA31003118587_062019-I.jpg",
+          "accepts_mercadopago": true,
+          "installments": {
+              "quantity": 12,
+              "amount": 12053.57,
+              "rate": 70.17,
+              "currency_id": "ARS"
+          },
+          "address": {
+              "state_id": "AR-C",
+              "state_name": "Capital Federal",
+              "city_id": "TUxBQlBVRTQ5NjBa",
+              "city_name": "Puerto Madero"
+          },
+          "shipping": {
+              "free_shipping": true,
+              "mode": "me2",
+              "tags": [
+                  "self_service_in",
+                  "mandatory_free_shipping"
+              ],
+              "logistic_type": "drop_off",
+              "store_pick_up": false
+          },
+          "seller_address": {
+              "id": "",
+              "comment": "",
+              "address_line": "",
+              "zip_code": "",
+              "country": {
+                  "id": "AR",
+                  "name": "Argentina"
+              },
+              "state": {
+                  "id": "AR-C",
+                  "name": "Capital Federal"
+              },
+              "city": {
+                  "id": "TUxBQlBVRTQ5NjBa",
+                  "name": "Puerto Madero"
+              },
+              "latitude": "",
+              "longitude": ""
+          },
+          "attributes": [
+              {
+                  "value_struct": null,
+                  "source": 1,
+                  "id": "BRAND",
+                  "value_name": "Apple",
+                  "values": [
+                      {
+                          "id": "9344",
+                          "name": "Apple",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "name": "Marca",
+                  "value_id": "9344"
+              },
+              {
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "source": 1,
+                  "id": "GPU_MODEL",
+                  "value_id": "8010379",
+                  "values": [
+                      {
+                          "name": "PowerVR Series7XT Plus",
+                          "struct": null,
+                          "source": 1,
+                          "id": "8010379"
+                      }
+                  ],
+                  "name": "Modelo de GPU",
+                  "value_name": "PowerVR Series7XT Plus",
+                  "value_struct": null
+              },
+              {
+                  "values": [
+                      {
+                          "id": "2230284",
+                          "name": "Nuevo",
+                          "struct": null,
+                          "source": 3376461333454861
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "source": 3376461333454861,
+                  "id": "ITEM_CONDITION",
+                  "name": "Condición del ítem",
+                  "value_id": "2230284",
+                  "value_struct": null,
+                  "value_name": "Nuevo"
+              },
+              {
+                  "value_id": "58993",
+                  "value_name": "iPhone",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "id": "58993",
+                          "name": "iPhone",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "source": 1,
+                  "name": "Línea",
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "id": "LINE"
+              },
+              {
+                  "name": "Modelo",
+                  "attribute_group_id": "OTHERS",
+                  "id": "MODEL",
+                  "value_id": "312155",
+                  "value_name": "iPhone 7",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "id": "312155",
+                          "name": "iPhone 7",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_name": "Otros",
+                  "source": 1
+              },
+              {
+                  "id": "PROCESSOR_MODEL",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "id": "6946002",
+                          "name": "Apple A10 Fusion",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "source": 1,
+                  "name": "Modelo del procesador",
+                  "value_id": "6946002",
+                  "value_name": "Apple A10 Fusion",
+                  "attribute_group_name": "Otros"
+              },
+              {
+                  "value_struct": {
+                      "number": 138,
+                      "unit": "g"
+                  },
+                  "attribute_group_id": "OTHERS",
+                  "source": 1,
+                  "name": "Peso",
+                  "value_id": "522902",
+                  "value_name": "138 g",
+                  "values": [
+                      {
+                          "id": "522902",
+                          "name": "138 g",
+                          "struct": {
+                              "number": 138,
+                              "unit": "g"
+                          },
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_name": "Otros",
+                  "id": "WEIGHT"
+              }
+          ],
+          "original_price": null,
+          "category_id": "MLA1055",
+          "official_store_id": null,
+          "domain_id": "MLA-CELLPHONES",
+          "catalog_product_id": "MLA6240116",
+          "tags": [
+              "extended_warranty_eligible",
+              "good_quality_picture",
+              "good_quality_thumbnail",
+              "loyalty_discount_eligible",
+              "brand_verified",
+              "immediate_payment",
+              "cart_eligible",
+              "shipping_guaranteed"
+          ],
+          "catalog_listing": true,
+          "order_backend": 4
+      },
+      {
+          "id": "MLA832440094",
+          "site_id": "MLA",
+          "title": "iPhone 11 Pro 64 Gb Gris Espacial",
+          "seller": {
+              "id": 396340389,
+              "permalink": "http://perfil.mercadolibre.com.ar/-M-STORE-",
+              "registration_date": "2019-01-18T10:02:58.000-04:00",
+              "car_dealer": false,
+              "real_estate_agency": false,
+              "tags": [
+                  "normal",
+                  "user_info_verified",
+                  "eshop",
+                  "mshops",
+                  "credits_profile",
+                  "messages_as_seller",
+                  "messages_as_buyer"
+              ],
+              "eshop": {
+                  "eshop_id": 393150,
+                  "seller": 396340389,
+                  "nick_name": "-M-STORE-",
+                  "eshop_status_id": 1,
+                  "site_id": "MLA",
+                  "eshop_logo_url": "http://resources.mlstatic.com/eshops/396340389v764470.png",
+                  "eshop_experience": 0,
+                  "eshop_rubro": null,
+                  "eshop_locations": []
+              },
+              "seller_reputation": {
+                  "level_id": "5_green",
+                  "power_seller_status": "platinum",
+                  "transactions": {
+                      "canceled": 368,
+                      "completed": 4279,
+                      "period": "historic",
+                      "ratings": {
+                          "negative": 0.02,
+                          "neutral": 0.01,
+                          "positive": 0.97
+                      },
+                      "total": 4647
+                  },
+                  "metrics": {
+                      "sales": {
+                          "period": "60 days",
+                          "completed": 1715
+                      },
+                      "claims": {
+                          "period": "60 days",
+                          "rate": 0.013,
+                          "value": 24
+                      },
+                      "delayed_handling_time": {
+                          "period": "60 days",
+                          "rate": 0.0148,
+                          "value": 23
+                      },
+                      "cancellations": {
+                          "period": "60 days",
+                          "rate": 0.0103,
+                          "value": 19
+                      }
+                  }
+              }
+          },
+          "price": 228800,
+          "prices": {},
+          "sale_price": null,
+          "currency_id": "ARS",
+          "available_quantity": 4,
+          "sold_quantity": 3,
+          "buying_mode": "buy_it_now",
+          "listing_type_id": "gold_special",
+          "stop_time": "2039-12-25T04:00:00.000Z",
+          "condition": "new",
+          "permalink": "https://www.mercadolibre.com.ar/iphone-11-pro-64-gb-gris-espacial/p/MLA15150713",
+          "thumbnail": "http://http2.mlstatic.com/D_729868-MLA32647708573_102019-I.jpg",
+          "accepts_mercadopago": true,
+          "installments": {
+              "quantity": 12,
+              "amount": 32445.75,
+              "rate": 70.17,
+              "currency_id": "ARS"
+          },
+          "address": {
+              "state_id": "AR-C",
+              "state_name": "Capital Federal",
+              "city_id": null,
+              "city_name": "Palermo"
+          },
+          "shipping": {
+              "free_shipping": true,
+              "mode": "me2",
+              "tags": [
+                  "self_service_in",
+                  "mandatory_free_shipping"
+              ],
+              "logistic_type": "xd_drop_off",
+              "store_pick_up": false
+          },
+          "seller_address": {
+              "id": "",
+              "comment": "",
+              "address_line": "",
+              "zip_code": "",
+              "country": {
+                  "id": "AR",
+                  "name": "Argentina"
+              },
+              "state": {
+                  "id": "AR-C",
+                  "name": "Capital Federal"
+              },
+              "city": {
+                  "id": null,
+                  "name": "Palermo"
+              },
+              "latitude": "",
+              "longitude": ""
+          },
+          "attributes": [
+              {
+                  "attribute_group_name": "Otros",
+                  "value_id": "9344",
+                  "value_name": "Apple",
+                  "value_struct": null,
+                  "attribute_group_id": "OTHERS",
+                  "source": 1,
+                  "id": "BRAND",
+                  "name": "Marca",
+                  "values": [
+                      {
+                          "id": "9344",
+                          "name": "Apple",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ]
+              },
+              {
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "source": 1,
+                          "id": "7741027",
+                          "name": "Apple GPU",
+                          "struct": null
+                      }
+                  ],
+                  "source": 1,
+                  "id": "GPU_MODEL",
+                  "name": "Modelo de GPU",
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "value_id": "7741027",
+                  "value_name": "Apple GPU"
+              },
+              {
+                  "source": 3570163010178927,
+                  "id": "ITEM_CONDITION",
+                  "value_name": "Nuevo",
+                  "values": [
+                      {
+                          "name": "Nuevo",
+                          "struct": null,
+                          "source": 3570163010178927,
+                          "id": "2230284"
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "name": "Condición del ítem",
+                  "value_id": "2230284",
+                  "value_struct": null
+              },
+              {
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "id": "58993",
+                          "name": "iPhone",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "source": 1,
+                  "id": "LINE",
+                  "name": "Línea",
+                  "value_id": "58993",
+                  "value_name": "iPhone",
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros"
+              },
+              {
+                  "id": "MODEL",
+                  "value_id": "7741023",
+                  "values": [
+                      {
+                          "id": "7741023",
+                          "name": "iPhone 11 Pro",
+                          "struct": null,
+                          "source": 4709228965570453
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "name": "Modelo",
+                  "value_name": "iPhone 11 Pro",
+                  "value_struct": null,
+                  "source": 4709228965570453
+              },
+              {
+                  "values": [
+                      {
+                          "id": "7740540",
+                          "name": "Apple A13 Bionic",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "source": 1,
+                  "value_id": "7740540",
+                  "value_name": "Apple A13 Bionic",
+                  "value_struct": null,
+                  "attribute_group_name": "Otros",
+                  "id": "PROCESSOR_MODEL",
+                  "name": "Modelo del procesador",
+                  "attribute_group_id": "OTHERS"
+              },
+              {
+                  "value_struct": {
+                      "number": 188,
+                      "unit": "g"
+                  },
+                  "values": [
+                      {
+                          "id": "522900",
+                          "name": "188 g",
+                          "struct": {
+                              "number": 188,
+                              "unit": "g"
+                          },
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "id": "WEIGHT",
+                  "value_id": "522900",
+                  "source": 1,
+                  "name": "Peso",
+                  "value_name": "188 g"
+              }
+          ],
+          "original_price": null,
+          "category_id": "MLA1055",
+          "official_store_id": null,
+          "domain_id": "MLA-CELLPHONES",
+          "catalog_product_id": "MLA15150713",
+          "tags": [
+              "brand_verified",
+              "good_quality_picture",
+              "good_quality_thumbnail",
+              "loyalty_discount_eligible",
+              "immediate_payment",
+              "cart_eligible",
+              "shipping_guaranteed"
+          ],
+          "catalog_listing": true,
+          "order_backend": 5
+      },
+      {
+          "id": "MLA812051576",
+          "site_id": "MLA",
+          "title": "iPhone XR 64 Gb Negro",
+          "seller": {
+              "id": 304956690,
+              "permalink": "http://perfil.mercadolibre.com.ar/SHOPNOWTIENDA",
+              "registration_date": "2018-02-28T15:51:35.000-04:00",
+              "car_dealer": false,
+              "real_estate_agency": false,
+              "tags": [
+                  "normal",
+                  "user_info_verified",
+                  "mshops",
+                  "credits_profile",
+                  "eshop",
+                  "messages_as_seller",
+                  "messages_as_buyer"
+              ],
+              "eshop": {
+                  "eshop_id": 313107,
+                  "seller": 304956690,
+                  "nick_name": "SHOPNOWTIENDA",
+                  "eshop_status_id": 1,
+                  "site_id": "MLA",
+                  "eshop_logo_url": "http://resources.mlstatic.com/eshops/304956690vfe7244.png",
+                  "eshop_experience": 0,
+                  "eshop_rubro": null,
+                  "eshop_locations": []
+              },
+              "seller_reputation": {
+                  "level_id": "5_green",
+                  "power_seller_status": "platinum",
+                  "real_level": "yellow",
+                  "protection_end_date": "2020-11-12T00:00:00.000-04:00",
+                  "transactions": {
+                      "canceled": 1954,
+                      "completed": 37835,
+                      "period": "historic",
+                      "ratings": {
+                          "negative": 0.05,
+                          "neutral": 0.02,
+                          "positive": 0.93
+                      },
+                      "total": 39789
+                  },
+                  "metrics": {
+                      "sales": {
+                          "period": "60 days",
+                          "completed": 11717
+                      },
+                      "claims": {
+                          "period": "60 days",
+                          "rate": 0,
+                          "value": 0,
+                          "excluded": {
+                              "real_value": 196,
+                              "real_rate": 0.016
+                          }
+                      },
+                      "delayed_handling_time": {
+                          "period": "60 days",
+                          "rate": 0,
+                          "value": 0,
+                          "excluded": {
+                              "real_value": 1737,
+                              "real_rate": 0.1541
+                          }
+                      },
+                      "cancellations": {
+                          "period": "60 days",
+                          "rate": 0,
+                          "value": 0,
+                          "excluded": {
+                              "real_value": 92,
+                              "real_rate": 0.0075
+                          }
+                      }
+                  }
+              }
+          },
+          "price": 150000,
+          "prices": {},
+          "sale_price": null,
+          "currency_id": "ARS",
+          "available_quantity": 4,
+          "sold_quantity": 5,
+          "buying_mode": "buy_it_now",
+          "listing_type_id": "gold_special",
+          "stop_time": "2039-08-25T04:00:00.000Z",
+          "condition": "new",
+          "permalink": "https://www.mercadolibre.com.ar/iphone-xr-64-gb-negro/p/MLA12866681",
+          "thumbnail": "http://http2.mlstatic.com/D_633990-MLA31002678135_062019-I.jpg",
+          "accepts_mercadopago": true,
+          "installments": {
+              "quantity": 12,
+              "amount": 21271.25,
+              "rate": 70.17,
+              "currency_id": "ARS"
+          },
+          "address": {
+              "state_id": "AR-C",
+              "state_name": "Capital Federal",
+              "city_id": "TUxBQkJBUjM0MDha",
+              "city_name": "Barracas"
+          },
+          "shipping": {
+              "free_shipping": true,
+              "mode": "me2",
+              "tags": [
+                  "self_service_in",
+                  "mandatory_free_shipping"
+              ],
+              "logistic_type": "cross_docking",
+              "store_pick_up": false
+          },
+          "seller_address": {
+              "id": "",
+              "comment": "",
+              "address_line": "",
+              "zip_code": "",
+              "country": {
+                  "id": "AR",
+                  "name": "Argentina"
+              },
+              "state": {
+                  "id": "AR-C",
+                  "name": "Capital Federal"
+              },
+              "city": {
+                  "id": "TUxBQkJBUjM0MDha",
+                  "name": "Barracas"
+              },
+              "latitude": "",
+              "longitude": ""
+          },
+          "attributes": [
+              {
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "source": 1,
+                  "value_id": "9344",
+                  "values": [
+                      {
+                          "id": "9344",
+                          "name": "Apple",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "value_name": "Apple",
+                  "value_struct": null,
+                  "id": "BRAND",
+                  "name": "Marca"
+              },
+              {
+                  "id": "ITEM_CONDITION",
+                  "value_id": "2230284",
+                  "value_name": "Nuevo",
+                  "values": [
+                      {
+                          "id": "2230284",
+                          "name": "Nuevo",
+                          "struct": null,
+                          "source": 3570163010178927
+                      }
+                  ],
+                  "attribute_group_name": "Otros",
+                  "name": "Condición del ítem",
+                  "value_struct": null,
+                  "attribute_group_id": "OTHERS",
+                  "source": 3570163010178927
+              },
+              {
+                  "source": 1,
+                  "id": "LINE",
+                  "name": "Línea",
+                  "value_name": "iPhone",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "id": "58993",
+                          "name": "iPhone",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_name": "Otros",
+                  "value_id": "58993",
+                  "attribute_group_id": "OTHERS"
+              },
+              {
+                  "value_id": "5414260",
+                  "value_struct": null,
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "source": 1,
+                  "id": "MODEL",
+                  "name": "Modelo",
+                  "value_name": "iPhone XR",
+                  "values": [
+                      {
+                          "struct": null,
+                          "source": 1,
+                          "id": "5414260",
+                          "name": "iPhone XR"
+                      }
+                  ]
+              },
+              {
+                  "name": "Modelo del procesador",
+                  "value_struct": null,
+                  "attribute_group_name": "Otros",
+                  "id": "PROCESSOR_MODEL",
+                  "value_name": "Apple A12 Bionic",
+                  "values": [
+                      {
+                          "id": "6927771",
+                          "name": "Apple A12 Bionic",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "source": 1,
+                  "value_id": "6927771"
+              },
+              {
+                  "attribute_group_id": "OTHERS",
+                  "source": 1,
+                  "value_id": "2583040",
+                  "value_name": "194 g",
+                  "value_struct": {
+                      "number": 194,
+                      "unit": "g"
+                  },
+                  "values": [
+                      {
+                          "id": "2583040",
+                          "name": "194 g",
+                          "struct": {
+                              "number": 194,
+                              "unit": "g"
+                          },
+                          "source": 1
+                      }
+                  ],
+                  "id": "WEIGHT",
+                  "name": "Peso",
+                  "attribute_group_name": "Otros"
+              }
+          ],
+          "original_price": null,
+          "category_id": "MLA1055",
+          "official_store_id": null,
+          "domain_id": "MLA-CELLPHONES",
+          "catalog_product_id": "MLA12866681",
+          "tags": [
+              "brand_verified",
+              "good_quality_picture",
+              "good_quality_thumbnail",
+              "immediate_payment",
+              "cart_eligible",
+              "shipping_guaranteed"
+          ],
+          "catalog_listing": true,
+          "order_backend": 6
+      },
+      {
+          "id": "MLA839430061",
+          "site_id": "MLA",
+          "title": "iPhone SE 32 Gb Oro Rosa",
+          "seller": {
+              "id": 364808939,
+              "permalink": "http://perfil.mercadolibre.com.ar/FOXSALES+MOVIL",
+              "registration_date": "2018-10-18T13:55:56.000-04:00",
+              "car_dealer": false,
+              "real_estate_agency": false,
+              "tags": [
+                  "normal",
+                  "user_info_verified",
+                  "credits_profile",
+                  "mshops",
+                  "messages_as_seller",
+                  "messages_as_buyer"
+              ],
+              "seller_reputation": {
+                  "level_id": "5_green",
+                  "power_seller_status": "silver",
+                  "transactions": {
+                      "canceled": 34,
+                      "completed": 333,
+                      "period": "historic",
+                      "ratings": {
+                          "negative": 0.01,
+                          "neutral": 0,
+                          "positive": 0.99
+                      },
+                      "total": 367
+                  },
+                  "metrics": {
+                      "sales": {
+                          "period": "60 days",
+                          "completed": 71
+                      },
+                      "claims": {
+                          "period": "60 days",
+                          "rate": 0,
+                          "value": 0
+                      },
+                      "delayed_handling_time": {
+                          "period": "60 days",
+                          "rate": 0.0666,
+                          "value": 3
+                      },
+                      "cancellations": {
+                          "period": "60 days",
+                          "rate": 0,
+                          "value": 0
+                      }
+                  }
+              }
+          },
+          "price": 69999,
+          "prices": {},
+          "sale_price": null,
+          "currency_id": "ARS",
+          "available_quantity": 2,
+          "sold_quantity": 3,
+          "buying_mode": "buy_it_now",
+          "listing_type_id": "gold_special",
+          "stop_time": "2040-02-11T09:41:51.000Z",
+          "condition": "new",
+          "permalink": "https://www.mercadolibre.com.ar/iphone-se-32-gb-oro-rosa/p/MLA6345173",
+          "thumbnail": "http://http2.mlstatic.com/D_757627-MLA31003080237_062019-I.jpg",
+          "accepts_mercadopago": true,
+          "installments": {
+              "quantity": 12,
+              "amount": 9926.44,
+              "rate": 70.17,
+              "currency_id": "ARS"
+          },
+          "address": {
+              "state_id": "AR-X",
+              "state_name": "Córdoba",
+              "city_id": "TUxBQ0NBUGNiZGQx",
+              "city_name": "Córdoba"
+          },
+          "shipping": {
+              "free_shipping": true,
+              "mode": "me2",
+              "tags": [
+                  "mandatory_free_shipping"
+              ],
+              "logistic_type": "drop_off",
+              "store_pick_up": false
+          },
+          "seller_address": {
+              "id": "",
+              "comment": "",
+              "address_line": "",
+              "zip_code": "",
+              "country": {
+                  "id": "AR",
+                  "name": "Argentina"
+              },
+              "state": {
+                  "id": "AR-X",
+                  "name": "Córdoba"
+              },
+              "city": {
+                  "id": "TUxBQ0NBUGNiZGQx",
+                  "name": "Córdoba"
+              },
+              "latitude": "",
+              "longitude": ""
+          },
+          "attributes": [
+              {
+                  "id": "BRAND",
+                  "name": "Marca",
+                  "value_name": "Apple",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "source": 1,
+                          "id": "9344",
+                          "name": "Apple",
+                          "struct": null
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "value_id": "9344",
+                  "source": 1
+              },
+              {
+                  "values": [
+                      {
+                          "id": "2230284",
+                          "name": "Nuevo",
+                          "struct": null,
+                          "source": 7092
+                      }
+                  ],
+                  "attribute_group_name": "Otros",
+                  "source": 7092,
+                  "id": "ITEM_CONDITION",
+                  "name": "Condición del ítem",
+                  "value_id": "2230284",
+                  "value_name": "Nuevo",
+                  "value_struct": null,
+                  "attribute_group_id": "OTHERS"
+              },
+              {
+                  "value_struct": null,
+                  "attribute_group_id": "OTHERS",
+                  "value_id": "58993",
+                  "value_name": "iPhone",
+                  "values": [
+                      {
+                          "id": "58993",
+                          "name": "iPhone",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_name": "Otros",
+                  "source": 1,
+                  "id": "LINE",
+                  "name": "Línea"
+              },
+              {
+                  "source": 1,
+                  "name": "Modelo",
+                  "value_id": "312154",
+                  "values": [
+                      {
+                          "name": "iPhone SE",
+                          "struct": null,
+                          "source": 1,
+                          "id": "312154"
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "id": "MODEL",
+                  "value_name": "iPhone SE",
+                  "value_struct": null
+              },
+              {
+                  "values": [
+                      {
+                          "struct": null,
+                          "source": 1,
+                          "id": "6973026",
+                          "name": "Apple A9"
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "source": 1,
+                  "name": "Modelo del procesador",
+                  "value_name": "Apple A9",
+                  "value_struct": null,
+                  "id": "PROCESSOR_MODEL",
+                  "value_id": "6973026",
+                  "attribute_group_name": "Otros"
+              },
+              {
+                  "id": "WEIGHT",
+                  "values": [
+                      {
+                          "id": "461998",
+                          "name": "113 g",
+                          "struct": {
+                              "number": 113,
+                              "unit": "g"
+                          },
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "source": 1,
+                  "name": "Peso",
+                  "value_id": "461998",
+                  "value_name": "113 g",
+                  "value_struct": {
+                      "number": 113,
+                      "unit": "g"
+                  }
+              }
+          ],
+          "original_price": null,
+          "category_id": "MLA1055",
+          "official_store_id": null,
+          "domain_id": "MLA-CELLPHONES",
+          "catalog_product_id": "MLA6345173",
+          "tags": [
+              "extended_warranty_eligible",
+              "good_quality_picture",
+              "good_quality_thumbnail",
+              "brand_verified",
+              "immediate_payment",
+              "cart_eligible",
+              "shipping_guaranteed"
+          ],
+          "catalog_listing": true,
+          "order_backend": 7
+      },
+      {
+          "id": "MLA886164717",
+          "site_id": "MLA",
+          "title": "iPhone 7 Plus 32 Gb Negro Mate",
+          "seller": {
+              "id": 359625547,
+              "permalink": "http://perfil.mercadolibre.com.ar/FILIPPIELECTRONICA",
+              "registration_date": "2018-10-02T18:53:55.000-04:00",
+              "car_dealer": false,
+              "real_estate_agency": false,
+              "tags": [
+                  "normal",
+                  "user_info_verified",
+                  "eshop",
+                  "credits_profile",
+                  "messages_as_seller",
+                  "messages_as_buyer"
+              ],
+              "eshop": {
+                  "eshop_id": 425989,
+                  "seller": 359625547,
+                  "nick_name": "FILIPPIELECTRONICA",
+                  "eshop_status_id": 1,
+                  "site_id": "MLA",
+                  "eshop_logo_url": "http://resources.mlstatic.com/eshops/359625547v185aa0.png",
+                  "eshop_experience": 0,
+                  "eshop_rubro": null,
+                  "eshop_locations": []
+              },
+              "seller_reputation": {
+                  "level_id": "5_green",
+                  "power_seller_status": "silver",
+                  "transactions": {
+                      "canceled": 56,
+                      "completed": 538,
+                      "period": "historic",
+                      "ratings": {
+                          "negative": 0,
+                          "neutral": 0.01,
+                          "positive": 0.99
+                      },
+                      "total": 594
+                  },
+                  "metrics": {
+                      "sales": {
+                          "period": "60 days",
+                          "completed": 57
+                      },
+                      "claims": {
+                          "period": "60 days",
+                          "rate": 0,
+                          "value": 1
+                      },
+                      "delayed_handling_time": {
+                          "period": "60 days",
+                          "rate": 0.037,
+                          "value": 2
+                      },
+                      "cancellations": {
+                          "period": "60 days",
+                          "rate": 0,
+                          "value": 0
+                      }
+                  }
+              }
+          },
+          "price": 126000,
+          "prices": {},
+          "sale_price": null,
+          "currency_id": "ARS",
+          "available_quantity": 1,
+          "sold_quantity": 0,
+          "buying_mode": "buy_it_now",
+          "listing_type_id": "gold_special",
+          "stop_time": "2040-10-25T04:00:00.000Z",
+          "condition": "new",
+          "permalink": "https://www.mercadolibre.com.ar/iphone-7-plus-32-gb-negro-mate/p/MLA6240132",
+          "thumbnail": "http://http2.mlstatic.com/D_906278-MLA31003080152_062019-I.jpg",
+          "accepts_mercadopago": true,
+          "installments": {
+              "quantity": 12,
+              "amount": 17867.85,
+              "rate": 70.17,
+              "currency_id": "ARS"
+          },
+          "address": {
+              "state_id": "AR-S",
+              "state_name": "Santa Fe",
+              "city_id": null,
+              "city_name": "San Guillermo"
+          },
+          "shipping": {
+              "free_shipping": true,
+              "mode": "me2",
+              "tags": [
+                  "mandatory_free_shipping"
+              ],
+              "logistic_type": "drop_off",
+              "store_pick_up": false
+          },
+          "seller_address": {
+              "id": "",
+              "comment": "",
+              "address_line": "",
+              "zip_code": "",
+              "country": {
+                  "id": "AR",
+                  "name": "Argentina"
+              },
+              "state": {
+                  "id": "AR-S",
+                  "name": "Santa Fe"
+              },
+              "city": {
+                  "id": null,
+                  "name": "San Guillermo"
+              },
+              "latitude": "",
+              "longitude": ""
+          },
+          "attributes": [
+              {
+                  "id": "BRAND",
+                  "value_id": "9344",
+                  "value_name": "Apple",
+                  "value_struct": null,
+                  "attribute_group_id": "OTHERS",
+                  "name": "Marca",
+                  "values": [
+                      {
+                          "id": "9344",
+                          "name": "Apple",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_name": "Otros",
+                  "source": 1
+              },
+              {
+                  "value_struct": null,
+                  "source": 1,
+                  "id": "GPU_MODEL",
+                  "name": "Modelo de GPU",
+                  "value_name": "PowerVR Series7XT Plus",
+                  "attribute_group_name": "Otros",
+                  "value_id": "8010379",
+                  "values": [
+                      {
+                          "source": 1,
+                          "id": "8010379",
+                          "name": "PowerVR Series7XT Plus",
+                          "struct": null
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS"
+              },
+              {
+                  "value_name": "Nuevo",
+                  "value_struct": null,
+                  "attribute_group_name": "Otros",
+                  "source": 7092,
+                  "id": "ITEM_CONDITION",
+                  "name": "Condición del ítem",
+                  "value_id": "2230284",
+                  "values": [
+                      {
+                          "name": "Nuevo",
+                          "struct": null,
+                          "source": 7092,
+                          "id": "2230284"
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS"
+              },
+              {
+                  "name": "Línea",
+                  "value_name": "iPhone",
+                  "attribute_group_name": "Otros",
+                  "id": "LINE",
+                  "value_id": "58993",
+                  "value_struct": null,
+                  "values": [
+                      {
+                          "struct": null,
+                          "source": 1,
+                          "id": "58993",
+                          "name": "iPhone"
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "source": 1
+              },
+              {
+                  "value_id": "312157",
+                  "value_struct": null,
+                  "attribute_group_name": "Otros",
+                  "values": [
+                      {
+                          "id": "312157",
+                          "name": "iPhone 7 Plus",
+                          "struct": null,
+                          "source": 1
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "source": 1,
+                  "id": "MODEL",
+                  "name": "Modelo",
+                  "value_name": "iPhone 7 Plus"
+              },
+              {
+                  "attribute_group_name": "Otros",
+                  "id": "PROCESSOR_MODEL",
+                  "name": "Modelo del procesador",
+                  "value_struct": null,
+                  "attribute_group_id": "OTHERS",
+                  "source": 1,
+                  "value_id": "6946002",
+                  "value_name": "Apple A10 Fusion",
+                  "values": [
+                      {
+                          "name": "Apple A10 Fusion",
+                          "struct": null,
+                          "source": 1,
+                          "id": "6946002"
+                      }
+                  ]
+              },
+              {
+                  "name": "Peso",
+                  "value_id": "522900",
+                  "value_struct": {
+                      "number": 188,
+                      "unit": "g"
+                  },
+                  "id": "WEIGHT",
+                  "value_name": "188 g",
+                  "values": [
+                      {
+                          "source": 1,
+                          "id": "522900",
+                          "name": "188 g",
+                          "struct": {
+                              "number": 188,
+                              "unit": "g"
+                          }
+                      }
+                  ],
+                  "attribute_group_id": "OTHERS",
+                  "attribute_group_name": "Otros",
+                  "source": 1
+              }
+          ],
+          "original_price": null,
+          "category_id": "MLA1055",
+          "official_store_id": null,
+          "domain_id": "MLA-CELLPHONES",
+          "catalog_product_id": "MLA6240132",
+          "tags": [
+              "brand_verified",
+              "good_quality_picture",
+              "loyalty_discount_eligible",
+              "immediate_payment",
+              "cart_eligible",
+              "shipping_guaranteed"
+          ],
+          "catalog_listing": true,
+          "order_backend": 8
+      }
+  ],
+  "secondary_results": [],
+  "related_results": [],
+  "sort": {
+      "id": "relevance",
+      "name": "Más relevantes"
+  },
+  "available_sorts": [
+      {
+          "id": "price_asc",
+          "name": "Menor precio"
+      },
+      {
+          "id": "price_desc",
+          "name": "Mayor precio"
+      }
+  ],
+  "filters": [
+      {
+          "id": "category",
+          "name": "Categorías",
+          "type": "text",
+          "values": [
+              {
+                  "id": "MLA1055",
+                  "name": "Celulares y Smartphones",
+                  "path_from_root": [
+                      {
+                          "id": "MLA1051",
+                          "name": "Celulares y Teléfonos"
+                      },
+                      {
+                          "id": "MLA1055",
+                          "name": "Celulares y Smartphones"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "id": "LINE",
+          "name": "Línea",
+          "type": "STRING",
+          "values": [
+              {
+                  "id": "58993",
+                  "name": "iPhone"
+              }
+          ]
+      },
+      {
+          "id": "BRAND",
+          "name": "Marca",
+          "type": "STRING",
+          "values": [
+              {
+                  "id": "9344",
+                  "name": "Apple"
+              }
+          ]
+      }
+  ],
+  "available_filters": [
+      {
+          "id": "official_store",
+          "name": "Tiendas oficiales",
+          "type": "text",
+          "values": [
+              {
+                  "id": "all",
+                  "name": "Todas las tiendas oficiales",
+                  "results": 9
+              }
+          ]
+      },
+      {
+          "id": "state",
+          "name": "Ubicación",
+          "type": "text",
+          "values": [
+              {
+                  "id": "TUxBUENBUGw3M2E1",
+                  "name": "Capital Federal",
+                  "results": 5327
+              },
+              {
+                  "id": "TUxBUEdSQXJlMDNm",
+                  "name": "Bs.As. G.B.A. Sur",
+                  "results": 1817
+              },
+              {
+                  "id": "TUxBUEdSQWU4ZDkz",
+                  "name": "Bs.As. G.B.A. Norte",
+                  "results": 1554
+              },
+              {
+                  "id": "TUxBUEdSQWVmNTVm",
+                  "name": "Bs.As. G.B.A. Oeste",
+                  "results": 1320
+              },
+              {
+                  "id": "TUxBUENPUmFkZGIw",
+                  "name": "Córdoba",
+                  "results": 771
+              },
+              {
+                  "id": "TUxBUFpPTmFpbnRl",
+                  "name": "Buenos Aires Interior",
+                  "results": 721
+              },
+              {
+                  "id": "TUxBUFNBTmU5Nzk2",
+                  "name": "Santa Fe",
+                  "results": 635
+              },
+              {
+                  "id": "TUxBUE1FTmE5OWQ4",
+                  "name": "Mendoza",
+                  "results": 232
+              },
+              {
+                  "id": "TUxBUENPU2ExMmFkMw",
+                  "name": "Bs.As. Costa Atlántica",
+                  "results": 228
+              },
+              {
+                  "id": "TUxBUEVOVHMzNTdm",
+                  "name": "Entre Ríos",
+                  "results": 171
+              },
+              {
+                  "id": "TUxBUFRVQ244NmM3",
+                  "name": "Tucumán",
+                  "results": 135
+              },
+              {
+                  "id": "TUxBUE5FVW4xMzMzNQ",
+                  "name": "Neuquén",
+                  "results": 108
+              },
+              {
+                  "id": "TUxBUE1JU3MzNjIx",
+                  "name": "Misiones",
+                  "results": 90
+              },
+              {
+                  "id": "TUxBUENPUnM5MjI0",
+                  "name": "Corrientes",
+                  "results": 78
+              },
+              {
+                  "id": "TUxBUENIQW8xMTNhOA",
+                  "name": "Chaco",
+                  "results": 69
+              },
+              {
+                  "id": "TUxBUFNBTGFjMTJi",
+                  "name": "Salta",
+                  "results": 66
+              },
+              {
+                  "id": "TUxBUENIVXQxNDM1MQ",
+                  "name": "Chubut",
+                  "results": 63
+              },
+              {
+                  "id": "TUxBUFLNT29iZmZm",
+                  "name": "Río Negro",
+                  "results": 60
+              },
+              {
+                  "id": "TUxBUFNBTm5lYjU4",
+                  "name": "San Juan",
+                  "results": 60
+              },
+              {
+                  "id": "TUxBUFNBTnM0ZTcz",
+                  "name": "San Luis",
+                  "results": 54
+              },
+              {
+                  "id": "TUxBUFNBTno3ZmY5",
+                  "name": "Santa Cruz",
+                  "results": 48
+              },
+              {
+                  "id": "TUxBUEZPUmE1OTk5",
+                  "name": "Formosa",
+                  "results": 39
+              },
+              {
+                  "id": "TUxBUExBWmE1OWMy",
+                  "name": "La Pampa",
+                  "results": 39
+              },
+              {
+                  "id": "TUxBUFNBTm9lOTlk",
+                  "name": "Santiago del Estero",
+                  "results": 30
+              },
+              {
+                  "id": "TUxBUENBVGFiY2Fm",
+                  "name": "Catamarca",
+                  "results": 21
+              },
+              {
+                  "id": "TUxBUEpVSnk3YmUz",
+                  "name": "Jujuy",
+                  "results": 21
+              },
+              {
+                  "id": "TUxBUExBWmEyNzY0",
+                  "name": "La Rioja",
+                  "results": 21
+              },
+              {
+                  "id": "TUxBUFRJRVoxM2M5YQ",
+                  "name": "Tierra del Fuego",
+                  "results": 9
+              }
+          ]
+      },
+      {
+          "id": "price",
+          "name": "Precio",
+          "type": "range",
+          "values": [
+              {
+                  "id": "*-35000.0",
+                  "name": "Hasta $ 35.000",
+                  "results": 4543
+              },
+              {
+                  "id": "35000.0-75000.0",
+                  "name": "$35.000 a $75.000",
+                  "results": 4711
+              },
+              {
+                  "id": "75000.0-*",
+                  "name": "Más de $75.000",
+                  "results": 5360
+              }
+          ]
+      },
+      {
+          "id": "accepts_mercadopago",
+          "name": "Filtro por MercadoPago",
+          "type": "boolean",
+          "values": [
+              {
+                  "id": "yes",
+                  "name": "Con MercadoPago",
+                  "results": 14614
+              }
+          ]
+      },
+      {
+          "id": "installments",
+          "name": "Pago",
+          "type": "text",
+          "values": [
+              {
+                  "id": "yes",
+                  "name": "En cuotas",
+                  "results": 14245
+              },
+              {
+                  "id": "no_interest",
+                  "name": "Sin interés",
+                  "results": 1614
+              }
+          ]
+      },
+      {
+          "id": "shipping",
+          "name": "Tipo de entrega",
+          "type": "text",
+          "values": [
+              {
+                  "id": "mercadoenvios",
+                  "name": "Con envío",
+                  "results": 14472
+              },
+              {
+                  "id": "fulfillment",
+                  "name": "Full",
+                  "results": 3
+              }
+          ]
+      },
+      {
+          "id": "power_seller",
+          "name": "Filtro por calidad de vendedores",
+          "type": "boolean",
+          "values": [
+              {
+                  "id": "yes",
+                  "name": "Mejores vendedores",
+                  "results": 336
+              }
+          ]
+      },
+      {
+          "id": "since",
+          "name": "Filtro por fecha de comienzo",
+          "type": "text",
+          "values": [
+              {
+                  "id": "today",
+                  "name": "Publicados hoy",
+                  "results": 251
+              }
+          ]
+      },
+      {
+          "id": "until",
+          "name": "Filtro por fecha de finalización",
+          "type": "text",
+          "values": [
+              {
+                  "id": "today",
+                  "name": "Finalizan hoy",
+                  "results": 162
+              }
+          ]
+      },
+      {
+          "id": "has_video",
+          "name": "Filtro por publicaciones con video",
+          "type": "boolean",
+          "values": [
+              {
+                  "id": "yes",
+                  "name": "Publicaciones con video",
+                  "results": 191
+              }
+          ]
+      },
+      {
+          "id": "has_pictures",
+          "name": "Filtro por publicaciones con imágenes",
+          "type": "boolean",
+          "values": [
+              {
+                  "id": "yes",
+                  "name": "Con fotos",
+                  "results": 14605
+              }
+          ]
+      },
+      {
+          "id": "shipping_cost",
+          "name": "Costo de envío",
+          "type": "text",
+          "values": [
+              {
+                  "id": "free",
+                  "name": "Gratis",
+                  "results": 7355
+              }
+          ]
+      },
+      {
+          "id": "CARRIER",
+          "name": "Compañía telefónica",
+          "type": "STRING",
+          "values": [
+              {
+                  "id": "298335",
+                  "name": "Liberado",
+                  "results": 14259
+              },
+              {
+                  "id": "298333",
+                  "name": "Claro",
+                  "results": 180
+              },
+              {
+                  "id": "303170",
+                  "name": "Movistar",
+                  "results": 135
+              },
+              {
+                  "id": "303171",
+                  "name": "Personal",
+                  "results": 105
+              }
+          ]
+      },
+      {
+          "id": "INTERNAL_MEMORY",
+          "name": "Memoria interna",
+          "type": "range",
+          "values": [
+              {
+                  "id": "(*-64GB)",
+                  "name": "Menos de 64 GB",
+                  "results": 5358
+              },
+              {
+                  "id": "[64GB-128GB)",
+                  "name": "64 a 127 GB",
+                  "results": 5169
+              },
+              {
+                  "id": "[128GB-256GB)",
+                  "name": "128 a 255 GB",
+                  "results": 2691
+              },
+              {
+                  "id": "[256GB-*)",
+                  "name": "256 GB o más",
+                  "results": 1587
+              }
+          ]
+      },
+      {
+          "id": "IS_DUAL_SIM",
+          "name": "Otras características",
+          "type": "boolean",
+          "values": [
+              {
+                  "id": "242085",
+                  "name": "Es Dual SIM",
+                  "results": 447
+              }
+          ]
+      },
+      {
+          "id": "ITEM_CONDITION",
+          "name": "Condición",
+          "type": "STRING",
+          "values": [
+              {
+                  "id": "2230581",
+                  "name": "Usado",
+                  "results": 12747
+              },
+              {
+                  "id": "2230284",
+                  "name": "Nuevo",
+                  "results": 1635
+              },
+              {
+                  "id": "2230582",
+                  "name": "Reacondicionado",
+                  "results": 423
+              }
+          ]
+      },
+      {
+          "id": "MAIN_COLOR",
+          "name": "Color principal",
+          "type": "list",
+          "values": [
+              {
+                  "id": "2450294",
+                  "name": "Gris",
+                  "results": 5673
+              },
+              {
+                  "id": "2450295",
+                  "name": "Negro",
+                  "results": 2571
+              },
+              {
+                  "id": "2450289",
+                  "name": "Dorado",
+                  "results": 1623
+              },
+              {
+                  "id": "2450312",
+                  "name": "Rosa",
+                  "results": 1299
+              },
+              {
+                  "id": "2450308",
+                  "name": "Blanco",
+                  "results": 630
+              },
+              {
+                  "id": "2450307",
+                  "name": "Rojo",
+                  "results": 390
+              },
+              {
+                  "id": "2450314",
+                  "name": "Verde",
+                  "results": 141
+              },
+              {
+                  "id": "2450293",
+                  "name": "Azul",
+                  "results": 93
+              },
+              {
+                  "id": "2450311",
+                  "name": "Violeta",
+                  "results": 75
+              },
+              {
+                  "id": "2450296",
+                  "name": "Amarillo",
+                  "results": 51
+              },
+              {
+                  "id": "2450313",
+                  "name": "Coral claro",
+                  "results": 48
+              },
+              {
+                  "id": "2450303",
+                  "name": "Plateado",
+                  "results": 39
+              },
+              {
+                  "id": "2450280",
+                  "name": "Rosa claro",
+                  "results": 39
+              },
+              {
+                  "id": "2450299",
+                  "name": "Gris oscuro",
+                  "results": 30
+              },
+              {
+                  "id": "2450286",
+                  "name": "Nude",
+                  "results": 15
+              },
+              {
+                  "id": "2450324",
+                  "name": "Verde oscuro",
+                  "results": 9
+              },
+              {
+                  "id": "2450278",
+                  "name": "Celeste",
+                  "results": 9
+              }
+          ]
+      },
+      {
+          "id": "MODEL",
+          "name": "Modelo",
+          "type": "STRING",
+          "values": [
+              {
+                  "id": "312155",
+                  "name": "iPhone 7",
+                  "results": 2049
+              },
+              {
+                  "id": "312151",
+                  "name": "iPhone 6s",
+                  "results": 1713
+              },
+              {
+                  "id": "312149",
+                  "name": "iPhone 6",
+                  "results": 1485
+              },
+              {
+                  "id": "312157",
+                  "name": "iPhone 7 Plus",
+                  "results": 1335
+              },
+              {
+                  "id": "312154",
+                  "name": "iPhone SE",
+                  "results": 885
+              },
+              {
+                  "id": "1164456",
+                  "name": "iPhone X",
+                  "results": 882
+              },
+              {
+                  "id": "2244673",
+                  "name": "iPhone 8 Plus",
+                  "results": 855
+              },
+              {
+                  "id": "2244670",
+                  "name": "iPhone 8",
+                  "results": 825
+              },
+              {
+                  "id": "5414260",
+                  "name": "iPhone XR",
+                  "results": 537
+              },
+              {
+                  "id": "7739079",
+                  "name": "iPhone 11",
+                  "results": 459
+              },
+              {
+                  "id": "312153",
+                  "name": "iPhone 6s Plus",
+                  "results": 444
+              },
+              {
+                  "id": "312144",
+                  "name": "iPhone 5s",
+                  "results": 354
+              },
+              {
+                  "id": "312150",
+                  "name": "iPhone 6 Plus",
+                  "results": 339
+              },
+              {
+                  "id": "5414168",
+                  "name": "iPhone XS Max",
+                  "results": 336
+              },
+              {
+                  "id": "7741677",
+                  "name": "iPhone 11 Pro Max",
+                  "results": 327
+              },
+              {
+                  "id": "5414079",
+                  "name": "iPhone XS",
+                  "results": 288
+              },
+              {
+                  "id": "7741023",
+                  "name": "iPhone 11 Pro",
+                  "results": 285
+              },
+              {
+                  "id": "312152",
+                  "name": "iPhone 5",
+                  "results": 207
+              },
+              {
+                  "id": "312143",
+                  "name": "iPhone 5c",
+                  "results": 204
+              },
+              {
+                  "id": "8230322",
+                  "name": "iPhone SE (2nd Generation)",
+                  "results": 159
+              },
+              {
+                  "id": "14610",
+                  "name": "iPhone 4",
+                  "results": 156
+              },
+              {
+                  "id": "312145",
+                  "name": "iPhone 4s",
+                  "results": 123
+              },
+              {
+                  "id": "14608",
+                  "name": "iPhone",
+                  "results": 105
+              },
+              {
+                  "id": "9081382",
+                  "name": "iPhone 12",
+                  "results": 69
+              },
+              {
+                  "id": "5414092",
+                  "name": "iPhone XS Dual SIM",
+                  "results": 39
+              },
+              {
+                  "id": "9081384",
+                  "name": "iPhone 12 Pro",
+                  "results": 30
+              },
+              {
+                  "id": "52828",
+                  "name": "7 Plus",
+                  "results": 21
+              },
+              {
+                  "id": "4904058",
+                  "name": "8 Plus",
+                  "results": 15
+              },
+              {
+                  "id": "27251",
+                  "name": "7",
+                  "results": 15
+              },
+              {
+                  "id": "9081385",
+                  "name": "iPhone 12 Pro Max",
+                  "results": 12
+              },
+              {
+                  "id": "14605",
+                  "name": "iPhone 3G",
+                  "results": 12
+              },
+              {
+                  "id": "9081383",
+                  "name": "iPhone 12 mini",
+                  "results": 9
+              },
+              {
+                  "id": "59833",
+                  "name": "6",
+                  "results": 9
+              }
+          ]
+      },
+      {
+          "id": "WITH_FACIAL_RECOGNITION",
+          "name": "Otras características",
+          "type": "boolean",
+          "values": [
+              {
+                  "id": "242085",
+                  "name": "Con reconocimiento facial",
+                  "results": 3093
+              }
+          ]
+      },
+      {
+          "id": "WITH_FINGERPRINT_READER",
+          "name": "Otras características",
+          "type": "boolean",
+          "values": [
+              {
+                  "id": "242085",
+                  "name": "Con lector de huella digital",
+                  "results": 11229
+              }
+          ]
+      }
+  ]
+}
