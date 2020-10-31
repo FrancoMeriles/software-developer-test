@@ -1,0 +1,136 @@
+swagger: '2.0'
+info:
+  version: '1.0.0'
+  title: 'Backend - Node JS'
+  description: 'Service created with ExpressJS'
+host: localhost
+basePath: '/api'
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /items:
+    get:
+      tags:
+        - Get items by search
+      summary: "Search items results"
+      parameters:
+        - in: query
+          name: q
+          type: string
+          description: The search word
+          required: true
+      responses:
+        200:
+          $ref: '#/responses/get_items_by_search'
+        500:
+          $ref: '#/responses/internal_server_error'
+  /items/{id}:
+    get:
+      tags:
+        - Get item
+      summary: "Get a single item"
+      parameters:
+        - name: id
+          in: path
+          required: true
+          type: string
+          description: The item id
+      responses:
+        200:
+          $ref: '#/responses/get_item_by_id'
+        500:
+          $ref: '#/responses/internal_server_error'
+responses:
+  internal_server_error:
+    description: Internal server error
+    schema:
+      type: object
+      properties:        
+        message:
+          type: string
+        severity:
+          type: string
+  get_items_by_search:
+    description: OK
+    schema:
+      type: object
+      properties:
+        author:
+          type: object
+          properties:
+            name:
+              type: string
+            lastname:
+              type: string
+        categories:
+          type: array
+          items:
+            type: string
+        items:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: integer
+              title:
+                type: string
+              price:
+                type: object
+                properties:
+                  currency:
+                    type: string
+                  amount:
+                    type: integer
+                  decimals:
+                    type: integer
+              picture:
+                type: string
+              condition:
+                type: string
+              free_shipping:
+                type: boolean
+  get_item_by_id:
+    description: OK
+    schema:
+      type: object
+      properties:
+        author:
+          type: object
+          properties:
+            name:
+              type: string
+            lastname:
+              type: string
+        item:
+          type: object
+          properties:
+            id:
+              type: integer
+            title:
+              type: string
+            price:
+              type: object
+              properties:
+                currency:
+                  type: string
+                amount:
+                  type: integer
+                decimals:
+                  type: integer
+            picture:
+              type: string
+            condition:
+              type: string
+            free_shipping:
+              type: boolean
+            sold_quantity:
+              type: integer
+            description:
+              type: string
+
+      

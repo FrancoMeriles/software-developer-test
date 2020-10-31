@@ -1,0 +1,10 @@
+{
+  "internal_server_error": {
+      "message": "Internal server error",
+      "severity": "HIGH"
+  },
+  "bad_request": {
+      "message": "Bad request",
+      "severity": "MEDIUM"
+  }
+}

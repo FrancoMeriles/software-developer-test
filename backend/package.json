@@ -1,0 +1,26 @@
+{
+  "name": "meli-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "lint": "./node_modules/.bin/eslint src/",
+    "lint-fix": "./node_modules/.bin/eslint --fix src/",
+    "test": "mocha spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^26.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
