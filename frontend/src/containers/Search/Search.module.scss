@@ -6,6 +6,9 @@
   border-radius: 2px;
   width: 100%;
   margin: 5px 0 5px 35px;
+  @include responsive(phone) {
+    margin: 5px 0 5px 10px;
+  }
 
   .Input {
     height: 40px;
@@ -13,6 +16,9 @@
     width: 100%;
     border: none;
     font-size: 18px;
+    @include responsive(phone) {
+      padding: 0px 10px;
+    }
 
     &:focus {
       outline: none;

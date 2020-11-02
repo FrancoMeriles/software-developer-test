@@ -4,6 +4,7 @@ import { getItemsBySearch } from '../../axios/meli.service';
 
 import Card from '../../ui/Card/Card';
 import Spinner from '../../ui/Spinner/Spinner';
+import NotFound from '../../ui/NotFound/NotFound';
 import classes from './ProductsBySearch.module.scss';
 
 const ProductsBySearch = (props) => {
@@ -24,7 +25,11 @@ const ProductsBySearch = (props) => {
   let contentProducts = <Spinner />;
 
   if (!loading) {
-    contentProducts = products.map((prd) => <Card product={prd} key={prd.id} />);
+    if (products.length > 0) {
+      contentProducts = products.map((prd) => <Card product={prd} key={prd.id} />);
+    } else {
+      contentProducts = <NotFound keyword={searchKeyword} />;
+    }
   }
 
   return <section className={classes.ProductsBySearch}>
