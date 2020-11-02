@@ -27,6 +27,7 @@
     "max-len": 0,
     "consistent-return": "off",
     "camelcase": "off",
-    "jsx-quotes": [2, "prefer-single"]
+    "jsx-quotes": [2, "prefer-single"],
+    "no-nested-ternary": "off"
   }
 }

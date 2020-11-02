@@ -8,7 +8,6 @@ const Card = ({ product }) => {
   const {
     id, title, price, free_shipping, picture,
   } = product;
-  console.log(getFormattedPrice(price));
   return (
     <div className={classes.Card}>
       <Link to={`/items/${id}`} className={classes.Wrapper} title={title}>
