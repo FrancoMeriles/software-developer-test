@@ -1,0 +1,31 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "mocha": false,
+    "jest/globals": true
+  },
+  "extends": [
+    "airbnb-base",
+    "react-app"
+  ],
+  "plugins": ["jest", "react"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-console": 0,
+    "max-len": 0,
+    "consistent-return": "off",
+    "camelcase": "off",
+    "jsx-quotes": [2, "prefer-single"]
+  }
+}

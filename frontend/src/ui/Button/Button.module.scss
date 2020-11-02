@@ -1,0 +1,28 @@
+@import "../../scss/main.scss";
+
+.Button {
+  padding: 17px;
+  margin: 5px 0;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  @include transition(all);
+
+  &.Primary {
+    background-color: map-get($theme-colors, secondary);
+    border-color: map-get($theme-colors, secondary);
+    color: white;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover.Primary {
+    background-color: darken(map-get($theme-colors, secondary), 10%);
+  }
+}

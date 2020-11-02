@@ -1,0 +1,86 @@
+@import "../../scss/main.scss";
+
+.Product {
+  background-color: white;
+  margin-top: 16px;
+  border-radius: 5px;
+  padding: 0 16px;
+
+  .Wrapper {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    @include responsive(tablet) {
+      grid-template-columns: auto;
+    }
+
+    .Image {
+      img {
+        width: 100%;
+        max-width: 680px;
+        height: 500px;
+        object-fit: contain;
+        padding: 16px;
+      }
+    }
+
+    .Text {
+      padding-top: 32px;
+
+      .Condition {
+        font-size: 14px;
+      }
+
+      .Title {
+        font-size: 24px;
+        margin: 16px 0 32px 0;
+        line-height: 30px;
+      }
+
+      .Price {
+        margin-bottom: 32px;
+        display: block;
+
+        .Amount {
+          font-size: 46px;
+        }
+
+        .Decimals {
+          font-size: 22px;
+          line-height: 35px;
+          vertical-align: top;
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+
+  .Description {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    @include responsive(tablet) {
+      grid-template-columns: auto;
+    }
+    .Content {
+      padding: 32px;
+      @include responsive(phone) {
+        padding: 16px;
+      }
+
+      .TitleDescription {
+        font-size: 28px;
+        display: block;
+        margin-bottom: 32px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.4;
+        color: #666;
+      }
+    }
+  }
+}

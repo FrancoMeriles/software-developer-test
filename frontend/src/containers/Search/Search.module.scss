@@ -1,0 +1,48 @@
+@import "../../scss/main.scss";
+
+.Form {
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  width: 100%;
+  margin: 5px 0 5px 35px;
+
+  .Input {
+    height: 40px;
+    padding: 0px 20px;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .Button {
+    border: none;
+    height: 40px;
+    padding-right: 13px;
+    padding-left: 13px;
+    position: relative;
+    background-color: $white;
+    cursor: pointer;
+
+    &:before {
+      content: "";
+      position: absolute;
+      height: 60%;
+      width: 1px;
+      top: 50%;
+      left: -5px;
+      transform: translateY(-50%);
+    }
+    &:focus {
+      outline: none;
+    }
+    img {
+      width: 17px;
+      height: 40px;
+    }
+  }
+}

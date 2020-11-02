@@ -71,7 +71,7 @@ itemsCtrl.getItemById = async (req, res) => {
       amount: entire,
       decimals: decimal,
     },
-    picture: itemData.thumbnail,
+    picture: itemData.pictures[0].url,
     condition: itemData.condition,
     free_shipping: itemData.shipping.free_shipping,
     sold_quantity: itemData.sold_quantity,
