@@ -111,3 +111,5 @@ npm run dependency-check
 ```
 
 ### Thanks 🙌
+
+- Franco Meriles

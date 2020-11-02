@@ -19,16 +19,20 @@ const Search = (props) => {
   };
 
   return (
-    <form onSubmit={formSubmitHandler} className={classes.Form}>
+    <form onSubmit={formSubmitHandler} className={classes.Form} id='search-form' role='search'>
       <input
+        id='searchKeyword'
+        aria-label='Ingresa lo que quieras buscar'
         className={classes.Input}
+        autoCapitalize='off'
+        autoCorrect='off'
         type='text'
         value={textValue}
         onChange={inputHandler}
         placeholder='Nunca dejes de buscar'
       />
-      <button type='submit' className={classes.Button}>
-        <img src={icSearch} alt='Buscar' />
+      <button type='submit' className={classes.Button} name='Buscar'>
+        <img src={icSearch} alt='Buscar' aria-label='Buscar'/>
       </button>
     </form>
   );

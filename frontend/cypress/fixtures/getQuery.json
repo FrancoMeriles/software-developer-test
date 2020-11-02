@@ -1,0 +1,59 @@
+{
+  "author": {
+      "name": "Franco",
+      "lastname": "Meriles"
+  },
+  "categories": [
+      "Celulares y Smartphones"
+  ],
+  "items": [
+      {
+          "id": "MLA884082181",
+          "title": "iPhone 11 128 Gb Negro",
+          "price": {
+              "currency": "ARS",
+              "amount": 180490,
+              "decimals": 48
+          },
+          "picture": "http://http2.mlstatic.com/D_738648-MLA43654417399_102020-I.jpg",
+          "condition": "new",
+          "free_shipping": true
+      },
+      {
+          "id": "MLA883187042",
+          "title": "iPhone 11 Pro Max 256 Gb Gris Espacial",
+          "price": {
+              "currency": "ARS",
+              "amount": 291000,
+              "decimals": 0
+          },
+          "picture": "http://http2.mlstatic.com/D_639283-MLA32646972173_102019-I.jpg",
+          "condition": "new",
+          "free_shipping": true
+      },
+      {
+          "id": "MLA880059019",
+          "title": "iPhone SE (2nd Generation) 128 Gb Blanco",
+          "price": {
+              "currency": "ARS",
+              "amount": 123405,
+              "decimals": 0
+          },
+          "picture": "http://http2.mlstatic.com/D_620208-MLA42321158044_062020-I.jpg",
+          "condition": "new",
+          "free_shipping": true
+      },
+      {
+          "id": "MLA842924471",
+          "title": "iPhone 7 32 Gb Negro Mate",
+          "price": {
+              "currency": "ARS",
+              "amount": 97000,
+              "decimals": 0
+          },
+          "picture": "http://http2.mlstatic.com/D_942036-MLA31003118587_062019-I.jpg",
+          "condition": "new",
+          "free_shipping": true
+      }
+  ]
+}

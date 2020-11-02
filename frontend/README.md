@@ -5,42 +5,24 @@ This Project is a webapp using [React](https://es.reactjs.org/) and [Create Reac
 ### Structure
 
 ```
-└── docs
-│   └── swagger.yml
-└── src
-│   └── application
-│   │   └── controllers
-│   │   │   └── items.controller.js
-│   │   └── routes
-│   │   │   └── items.route.js
-│   │   │   └── index.js
-│   │   └── dictionaries
-│   │   │   └── dictionary.errors.json
-│   │   └── app.js
-│   └── infrastructure
-│   │   └── axios
-│   │      └── instance.js
-│   │   └── service
-│   │      └── items.service.js
-│   └── util
-│   │   └── getPrice.js
-│   └── index.js
-└── test
+└── cypress
+│   └── fixtures
 │   └── integration
-│   │   └── data
-│   │   │   └── itemSuccess.json
-│   │   │   └── querySuccess.json
-│   │   └── stub
-│   │   │   └── getItemData.json
-│   │   │   └── getItemDescription.json
-│   │   │   └── getQuery.json
-│   │   └── items.test.js
-│   └── unit
-│   │   └── getPrice.test.js
+│   └── plugins
+│   └── support
+└── src
+│   └── assets
+│   └── axios
+│   └── components
+│   └── containers
+│   └── scss
+│   └── ui
+│   └── util
 └── .gitignore
 └── .eslintrc.json
+└── cypress.json
 └── package.json
-└── package-lock.json
+└── yarn-lock.json
 └── README.MD
 ```
 
@@ -52,10 +34,16 @@ This Project is a webapp using [React](https://es.reactjs.org/) and [Create Reac
 yarn
 ```
 
-- Run this project.
+- Run the backend project.
 
 ```sh
-yarn start
+cd .. && cd backend/ && npm start
+```
+
+- And then run this project.
+
+```sh
+cd .. && cd frontend/ && yarn start
 ```
 
 ### Run
@@ -70,7 +58,7 @@ In this project i used [eslint](https://eslint.org/) with the specification of [
 npm run lint
 ```
 
-### Testing
+### Unit Testing
 
 In this project i used [Jest](https://jestjs.io/) for testing, you can run this tests with the following command
 
@@ -80,20 +68,22 @@ Run unit test
 npm run test
 ```
 
-Run integration test
+### e2e Test
+
+In this project i used [Cypress](https://jestjs.io/) for e2e testing, you can run this tests with the following command
+
+First start the app and in other console run cypress
 
 ```sh
-npm run integration-test
+yarn start
 ```
-
-### Dependency check
-
-In this project i used [dependency-check](https://www.npmjs.com/package/dependency-check) for checking which modules i have used in my code and then makes sure they are listed as dependencies in the package.json, or vice-versa
-
-Run dependency-check
 
 ```sh
-npm run dependency-check
+npm run cypress
 ```
+
+Click in the `app.spect.js` to start running the tests
 
 ### Thanks 🙌
+
+- Franco Meriles

@@ -11,7 +11,7 @@ const Card = ({ product }) => {
   console.log(getFormattedPrice(price));
   return (
     <div className={classes.Card}>
-      <Link to={`/items/${id}`} className={classes.Wrapper}>
+      <Link to={`/items/${id}`} className={classes.Wrapper} title={title}>
         <div className={classes.Image}>
           <img src={picture} alt={title} />
         </div>

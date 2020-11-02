@@ -11,7 +11,7 @@ const Header = () => (
       <nav>
         <Container>
           <div className={classes.Content}>
-            <Link to='/'>
+            <Link to='/' role='button' aria-label='Ir al contenido principal' id='inicio'>
               <img
                 className={classes.BrandLogo}
                 src={logo}
