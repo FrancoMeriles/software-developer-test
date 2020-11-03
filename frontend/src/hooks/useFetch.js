@@ -30,7 +30,10 @@ const useFetch = (type, options) => {
   }, [type, options]);
 
   return {
-    data, isLoading, hasError, errorMessage,
+    data,
+    isLoading,
+    hasError,
+    errorMessage,
   };
 };
 

@@ -1,10 +1,10 @@
 import Header from '../../components/Header/Header';
 
-const Layout = (props) => <>
+const Layout = (props) => (
+  <>
     <Header />
-    <main>
-      { props.children }
-    </main>
-  </>;
+    <main>{props.children}</main>
+  </>
+);
 
 export default Layout;

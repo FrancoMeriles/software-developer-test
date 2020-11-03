@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import useFetch from '../../hooks/useFetch';
 import useQuery from '../../util/getQueryString';
 
@@ -13,25 +14,44 @@ const ProductsBySearch = () => {
   const searchKeyword = useQuery().get('search');
   const {
     data, isLoading, hasError, errorMessage,
-  } = useFetch('byQuery', searchKeyword);
+  } = useFetch(
+    'byQuery',
+    searchKeyword,
+  );
 
   let contentProducts = <Spinner />;
+  let helmetData;
 
   if (!isLoading) {
     if (hasError) {
-      contentProducts = <ErrorNetwork error={errorMessage}/>;
+      contentProducts = <ErrorNetwork error={errorMessage} />;
     } else if (data.items && data.items.length > 0) {
-      contentProducts = data.items.map((prd) => <Card product={prd} key={prd.id} />);
+      const contentDescription = data.categories.map(
+        (categorie) => `${categorie}, `,
+      );
+      helmetData = (
+        <Helmet>
+          <title>{`${searchKeyword} en Mercado Libre Argentina`}</title>
+          <meta
+            name='description'
+            content={`${searchKeyword}, ${contentDescription}`}
+          />
+        </Helmet>
+      );
+      contentProducts = data.items.map((prd) => (
+        <Card product={prd} key={prd.id} />
+      ));
     } else {
       contentProducts = <ResultsNotFound keyword={searchKeyword} />;
     }
   }
 
-  return <>
-    { data.categories && <Breadcrumb categories={data.categories}/> }
-    <section className={classes.ProductsBySearch}>
-      { contentProducts }
-    </section>
-  </>;
+  return (
+    <>
+      {helmetData}
+      {data.categories && <Breadcrumb categories={data.categories} />}
+      <section className={classes.ProductsBySearch}>{contentProducts}</section>
+    </>
+  );
 };
 export default ProductsBySearch;

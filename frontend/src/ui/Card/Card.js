@@ -15,8 +15,16 @@ const Card = ({ product }) => {
           <img src={picture} alt={title} />
         </div>
         <div className={classes.Content}>
-          <span className={classes.Price}>{getFormattedPrice(price).amount}</span>
-          { free_shipping && <img className={classes.Icon} src={ic_shipping} alt='free shipping'/> }
+          <span className={classes.Price}>
+            {getFormattedPrice(price).amount}
+          </span>
+          {free_shipping && (
+            <img
+              className={classes.Icon}
+              src={ic_shipping}
+              alt='free shipping'
+            />
+          )}
           <h2 className={classes.Title}>{title}</h2>
         </div>
       </Link>

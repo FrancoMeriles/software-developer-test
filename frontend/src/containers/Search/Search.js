@@ -19,7 +19,12 @@ const Search = (props) => {
   };
 
   return (
-    <form onSubmit={formSubmitHandler} className={classes.Form} id='search-form' role='search'>
+    <form
+      onSubmit={formSubmitHandler}
+      className={classes.Form}
+      id='search-form'
+      role='search'
+    >
       <input
         id='searchKeyword'
         aria-label='Ingresa lo que quieras buscar'
@@ -32,7 +37,7 @@ const Search = (props) => {
         placeholder='Nunca dejes de buscar'
       />
       <button type='submit' className={classes.Button} name='Buscar'>
-        <img src={icSearch} alt='Buscar' aria-label='Buscar'/>
+        <img src={icSearch} alt='Buscar' aria-label='Buscar' />
       </button>
     </form>
   );
