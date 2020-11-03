@@ -12,18 +12,28 @@ The project has two folders, one where the backend is located and the other the 
 └── README.MD
 ```
 
-### How to try it
+### How to try it locally
 
-- Navigate to the backend (BFF) folder and install
+- IMPORTANT ! To test the front end you need to start de backend.
+
+- Navigate to the backend (BFF) folder, install and start
 
 ```sh
 npm install
 ```
 
-- Navigate to the frontend folder and install
+```sh
+npm start
+```
+
+- Navigate to the frontend folder, install and start
 
 ```sh
 yarn
+```
+
+```sh
+yarn start
 ```
 
 Each folder has its specific readme with more instructions

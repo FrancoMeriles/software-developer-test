@@ -1,0 +1,29 @@
+@import "../../scss/main.scss";
+
+.Breadcrumb {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    li {
+      color: map-get($black-colors, light);
+      margin: 16px 5px 0 5px;
+      &::before {
+        content: ">";
+        padding-right: 10px;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+      &:first-child {
+        margin-left: 0;
+        &::before {
+          content: none;
+        }
+      }
+    }
+  }
+}

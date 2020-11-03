@@ -1,39 +1,37 @@
-import { useEffect, useState } from 'react';
+import useFetch from '../../hooks/useFetch';
 import useQuery from '../../util/getQueryString';
-import { getItemsBySearch } from '../../axios/meli.service';
 
 import Card from '../../ui/Card/Card';
 import Spinner from '../../ui/Spinner/Spinner';
-import NotFound from '../../ui/NotFound/NotFound';
+import ResultsNotFound from '../../ui/ResultsNotFound/ResultsNotFound';
+import ErrorNetwork from '../../ui/ErrorNetwork/ErrorNetwork';
+import Breadcrumb from '../../components/Breadcrumb/Breadcrumb';
+
 import classes from './ProductsBySearch.module.scss';
 
-const ProductsBySearch = (props) => {
-  const [products, setProducts] = useState([]);
-  const [loading, setLoading] = useState(true);
+const ProductsBySearch = () => {
   const searchKeyword = useQuery().get('search');
-
-  useEffect(() => {
-    setLoading(true);
-    const getTournamentData = async () => {
-      const data = await getItemsBySearch(searchKeyword);
-      setProducts(data.items);
-      setLoading(false);
-    };
-    getTournamentData();
-  }, [searchKeyword]);
+  const {
+    data, isLoading, hasError, errorMessage,
+  } = useFetch('byQuery', searchKeyword);
 
   let contentProducts = <Spinner />;
 
-  if (!loading) {
-    if (products.length > 0) {
-      contentProducts = products.map((prd) => <Card product={prd} key={prd.id} />);
+  if (!isLoading) {
+    if (hasError) {
+      contentProducts = <ErrorNetwork error={errorMessage}/>;
+    } else if (data.items && data.items.length > 0) {
+      contentProducts = data.items.map((prd) => <Card product={prd} key={prd.id} />);
     } else {
-      contentProducts = <NotFound keyword={searchKeyword} />;
+      contentProducts = <ResultsNotFound keyword={searchKeyword} />;
     }
   }
 
-  return <section className={classes.ProductsBySearch}>
-    { contentProducts }
-  </section>;
+  return <>
+    { data.categories && <Breadcrumb categories={data.categories}/> }
+    <section className={classes.ProductsBySearch}>
+      { contentProducts }
+    </section>
+  </>;
 };
 export default ProductsBySearch;

@@ -25,6 +25,7 @@ describe('Search item page', () => {
     }).as('getQueryData');
     cy.visit('http://localhost:3000/items?search=iphone');
     cy.wait('@getQueryData');
+    cy.get('section').find('a').should('have.length', 4);
     cy.get('section').find('a').each(($el) => {
       cy.get($el).should('have.attr', 'title');
       cy.get($el).find('img').should('have.attr', 'alt');

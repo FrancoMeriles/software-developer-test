@@ -11,6 +11,9 @@
     grid-template-columns: 7fr 3fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
+    @include responsive(pc) {
+      grid-template-columns: 6fr 4fr;
+    }
     @include responsive(tablet) {
       grid-template-columns: auto;
     }
@@ -28,7 +31,8 @@
     .Text {
       padding-top: 32px;
 
-      .Condition {
+      .Condition,
+      .Qty {
         font-size: 14px;
       }
 

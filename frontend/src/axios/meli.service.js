@@ -11,3 +11,8 @@ export const getItemById = async (itemId) => {
   const response = await axios.get(`${basePath}/items/${itemId}`);
   return response.data;
 };
+
+// axios.interceptors.response.use(
+//   (response) => response,
+//   (error) => Promise.resolve({ data: { error: true, msg: error.message } }),
+// );

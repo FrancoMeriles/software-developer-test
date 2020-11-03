@@ -1,0 +1,14 @@
+@import "../../scss/main.scss";
+
+.ErrorNetwork {
+  background-color: white;
+  flex-direction: column;
+  @extend .NotFound;
+
+  p {
+    margin: 5px 0;
+  }
+  b {
+    margin-bottom: 15px;
+  }
+}

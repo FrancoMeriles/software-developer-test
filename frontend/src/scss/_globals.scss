@@ -3,3 +3,12 @@
 body {
   background-color: $white;
 }
+
+.NotFound {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: map-get($black-colors, medium);
+}

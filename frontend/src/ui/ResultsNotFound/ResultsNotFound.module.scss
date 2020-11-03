@@ -1,0 +1,6 @@
+@import "../../scss/main.scss";
+
+.ResultsNotFound {
+  background-color: white;
+  @extend .NotFound;
+}
