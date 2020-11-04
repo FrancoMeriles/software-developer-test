@@ -29,7 +29,6 @@ const Product = (props) => {
     } else if (Object.keys(data).length) {
       helmetData = (
         <Helmet>
-          <html lang='en' />
           <title>{data.title}</title>
           <meta name='description' content={data.description} />
           <meta property='og:description' content={data.description}></meta>

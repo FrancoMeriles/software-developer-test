@@ -1,7 +1,7 @@
 @import "../../scss/main.scss";
 
 .ErrorNetwork {
-  background-color: white;
+  background-color: map-get($white-colors, normal);
   flex-direction: column;
   @extend .NotFound;
 

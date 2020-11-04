@@ -27,26 +27,25 @@ itemsCtrl.getItemsBySearch = async (req, res) => {
     categories = filtersCategories.values.map((categorie) => categorie.name);
   }
 
-  let items = []
+  let items = [];
   if (data.results) {
     // Get items
     items = data.results.slice(0, 4).map((item) => {
-    const { entire, decimal } = getPrices(item.price);
+      const { entire, decimal } = getPrices(item.price);
       return {
-          id: item.id,
-          title: item.title,
-          price: {
-            currency: item.currency_id,
-            amount: entire,
-            decimals: decimal,
-          },
-          picture: item.thumbnail,
-          condition: item.condition,
-          free_shipping: item.shipping.free_shipping,
+        id: item.id,
+        title: item.title,
+        price: {
+          currency: item.currency_id,
+          amount: entire,
+          decimals: decimal,
+        },
+        picture: item.thumbnail,
+        condition: item.condition,
+        free_shipping: item.shipping.free_shipping,
       };
     });
   }
-  
 
   res.status(200).json({ author, categories, items });
 };

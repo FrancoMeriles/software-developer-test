@@ -31,7 +31,7 @@
     padding-right: 13px;
     padding-left: 13px;
     position: relative;
-    background-color: $white;
+    background-color: map-get($white-colors, meli);
     cursor: pointer;
 
     &:before {

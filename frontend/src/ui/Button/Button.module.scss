@@ -15,7 +15,7 @@
   &.Primary {
     background-color: map-get($theme-colors, secondary);
     border-color: map-get($theme-colors, secondary);
-    color: white;
+    color: map-get($white-colors, normal);
   }
 
   &:focus {

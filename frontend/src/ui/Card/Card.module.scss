@@ -3,7 +3,7 @@
 .Card {
   padding-bottom: 16px;
   padding-top: 16px;
-  border-bottom: solid 1px $white;
+  border-bottom: solid 1px map-get($white-colors, meli);
 
   .Wrapper {
     display: flex;

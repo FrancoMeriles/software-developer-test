@@ -18,6 +18,7 @@ This Project is a webapp using [React](https://es.reactjs.org/) and [Create Reac
 │   └── scss
 │   └── ui
 │   └── util
+│   └── hooks
 └── .gitignore
 └── .eslintrc.json
 └── cypress.json
@@ -33,6 +34,8 @@ This Project is a webapp using [React](https://es.reactjs.org/) and [Create Reac
 ```sh
 yarn
 ```
+
+- IMPORTANT ! To test the front end you need to start first the backend.
 
 - Run the backend project.
 
@@ -55,7 +58,7 @@ Open the proyect in your localhost port `3000`
 In this project i used [eslint](https://eslint.org/) with the specification of [Airbnb](https://github.com/airbnb/javascript), you can run the linter with the following command
 
 ```sh
-npm run lint
+yarn lint
 ```
 
 ### Unit Testing
@@ -65,7 +68,7 @@ In this project i used [Jest](https://jestjs.io/) for testing, you can run this 
 Run unit test
 
 ```sh
-npm run test
+yarn test
 ```
 
 ### e2e Test
@@ -79,7 +82,7 @@ yarn start
 ```
 
 ```sh
-npm run cypress
+yarn cypress
 ```
 
 Click in the `app.spect.js` to start running the tests

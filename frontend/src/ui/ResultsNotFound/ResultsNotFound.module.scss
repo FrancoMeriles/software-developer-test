@@ -1,6 +1,6 @@
 @import "../../scss/main.scss";
 
 .ResultsNotFound {
-  background-color: white;
+  background-color: map-get($white-colors, normal);
   @extend .NotFound;
 }
