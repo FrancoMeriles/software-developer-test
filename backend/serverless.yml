@@ -1,0 +1,5 @@
+component: express
+name: express-app
+
+inputs:
+  src: ./

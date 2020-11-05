@@ -87,6 +87,20 @@ yarn cypress
 
 Click in the `app.spect.js` to start running the tests
 
+### Deploy to AWS
+
+This project is ready to deploy using [Serverless Framework](https://www.serverless.com/) and [Serverless Components](https://www.serverless.com/components/) in this case i use [Website](https://github.com/serverless-components/website)
+
+Install the last version of Serverless and deploy 🎉
+
+```sh
+npm install -g serverless
+```
+
+```sh
+serverless deploy
+```
+
 ### Thanks 🙌
 
 - Franco Meriles

@@ -3,7 +3,11 @@ const axios = require('axios');
 const basePath = 'https://api.mercadolibre.com';
 
 const getItemsBySearch = async (query) => {
-  const response = await axios.get(`${basePath}/sites/MLA/search?q=${query}`);
+  const response = await axios.get(`${basePath}/sites/MLA/search`, {
+    params: {
+      q: query,
+    },
+  });
   return response.data;
 };
 
